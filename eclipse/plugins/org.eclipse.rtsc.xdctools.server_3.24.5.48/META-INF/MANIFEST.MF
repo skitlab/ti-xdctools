@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-Name: XDCscript command server
+Bundle-ClassPath: packages/xdc/tools/java/package.jar
+Created-By: 1.5.0_22 (Sun Microsystems Inc.)
+Bundle-Vendor: Texas Instruments
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.eclipse.rtsc.xdctools.server;singleton:=true
+Export-Package: xdc.tools
+Bundle-Version: 3.24.5.48
+Eclipse-LazyStart: true
+
+Name: packages/xdc/tools/java/package.jar
+SHA1-Digest: 7WoIlbvUAfeiFZ91kH2LSef9sDc=
+

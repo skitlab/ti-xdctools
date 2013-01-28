@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin
+    name="XDCtools Target Content"
+    id="org.eclipse.rtsc.xdctools.product_3.24.5.48"
+    version="3.24.5.48"
+    provider-name="Texas Instruments">
+
+    <extension point="org.eclipse.rtsc.xdctools.ui.productInfo">
+        <repository location="../../../packages"/>
+        <docs location="../../../."/>
+        <docs location="../../../docs"/>
+        <docs location="../../../docs/docs.zip"/>
+        <rtscTarget
+             deviceNamePattern="CC430.*"
+             deviceFamilyPattern="MSP430.*"
+             packageName="ti.targets.msp430"
+             baseTargetName="MSP430X"/>
+        <rtscTarget
+             deviceNamePattern="MSP430CG.*|MSP430BT.*"
+             deviceFamilyPattern="MSP430.*"
+             packageName="ti.targets.msp430"
+             baseTargetName="MSP430X"/>
+        <rtscTarget
+             deviceNamePattern="MSP430F2[46]1[6789]"
+             deviceFamilyPattern="MSP430.*"
+             packageName="ti.targets.msp430"
+             baseTargetName="MSP430X"/>
+        <rtscTarget
+             deviceNamePattern="MSP430F471.*|MSP430FG?46.*"
+             deviceFamilyPattern="MSP430.*"
+             packageName="ti.targets.msp430"
+             baseTargetName="MSP430X"/>
+        <rtscTarget
+             deviceNamePattern="MSP430X.*|MSP430FR?[56].*"
+             deviceFamilyPattern="MSP430.*"
+             packageName="ti.targets.msp430"
+             baseTargetName="MSP430X"/>
+        <rtscTarget
+             deviceNamePattern="MSP430.*"
+             deviceFamilyPattern="MSP430.*"
+             packageName="ti.targets.msp430"
+             baseTargetName="MSP430"/>
+        <rtscTarget
+             deviceNamePattern=".*"
+             deviceFamilyPattern="C2000.*"
+             CompilerBuildOptionsPattern="--float_support=fpu32($|\s)"
+             packageName="ti.targets"
+             baseTargetName="C28_float"/>
+        <rtscTarget
+             deviceNamePattern=".*"
+             deviceFamilyPattern="C2000.*"
+             CompilerBuildOptionsPattern="--large_memory_model($|\s)"
+             packageName="ti.targets"
+             baseTargetName="C28_large"/>
+        <rtscTarget
+             deviceNamePattern="TMS320[CF]283[0-9][0-9]$"
+             deviceFamilyPattern="C2000.*"
+             packageName="ti.targets"
+             baseTargetName="C28_float"/>
+        <rtscTarget
+             deviceNamePattern="F28M3.*"
+             deviceFamilyPattern="C2000.*"
+             packageName="ti.targets"
+             baseTargetName="C28_float"/>
+        <rtscTarget
+             deviceNamePattern="TMS320[CF]282[0-9][0-9]$"
+             deviceFamilyPattern="C2000.*"
+             packageName="ti.targets"
+             baseTargetName="C28_large"/>
+        <rtscTarget
+             deviceNamePattern="TMS320[CF]28[01][0-9]$"
+             deviceFamilyPattern="C2000.*"
+             packageName="ti.targets"
+             baseTargetName="C28_large"/>
+        <rtscTarget
+             deviceNamePattern="TMS320[CF]2802[0-9][0-9]?$"
+             deviceFamilyPattern="C2000.*"
+             packageName="ti.targets"
+             baseTargetName="C28_large"/>
+        <rtscTarget
+             deviceNamePattern="TMS320[CF]2803[0-9]$"
+             deviceFamilyPattern="C2000.*"
+             packageName="ti.targets"
+             baseTargetName="C28_large"/>
+        <rtscTarget
+             deviceNamePattern="TMS320[CF]2805[0-9][FM]?$"
+             deviceFamilyPattern="C2000.*"
+             packageName="ti.targets"
+             baseTargetName="C28_large"/>
+        <rtscTarget
+             deviceNamePattern="TMS320[CF]2806[0-9]$"
+             deviceFamilyPattern="C2000.*"
+             packageName="ti.targets"
+             baseTargetName="C28_float"/>
+        <rtscTarget
+             deviceNamePattern="TMS320R281[0-9]$"
+             deviceFamilyPattern="C2000.*"
+             packageName="ti.targets"
+             baseTargetName="C28_large"/>
+        <rtscTarget
+             deviceNamePattern=".*"
+             deviceFamilyPattern="C2000.*"
+             CompilerBuildOptionsPattern="~((--float_support=fpu32($|\s))|(--large_memory_model($|\s))"
+             packageName="ti.targets"
+             baseTargetName="C28"/>
+        <rtscTarget
+             deviceNamePattern=".*"
+             deviceFamilyPattern="ARM.*"
+             CompilerBuildOptionsPattern="-silicon_version=7M3($|\s)"
+             packageName="ti.targets.arm"
+             baseTargetName="M3"/>
+        <rtscTarget
+             deviceNamePattern=".*"
+             deviceFamilyPattern="ARM.*"
+             CompilerBuildOptionsPattern="-silicon_version=7A8($|\s)"
+             packageName="ti.targets.arm"
+             baseTargetName="A8Fnv"/>
+        <rtscTarget
+             deviceNamePattern=".*"
+             deviceFamilyPattern="ARM.*"
+             CompilerBuildOptionsPattern="--float_support=FPv4SPD16($|\s)"
+             packageName="ti.targets.arm"
+             baseTargetName="M4F"/>
+        <rtscTarget
+             deviceNamePattern=".*"
+             deviceFamilyPattern="ARM.*"
+             CompilerBuildOptionsPattern="-silicon_version=7M4($|\s)"
+             packageName="ti.targets.arm"
+             baseTargetName="M4"/>
+        <rtscTarget
+             deviceNamePattern=".*"
+             deviceFamilyPattern="ARM.*"
+             CompilerBuildOptionsPattern="-silicon_version=5e($|\s)"
+             packageName="ti.targets.arm"
+             baseTargetName="Arm9"/>
+        <rtscTarget
+             deviceNamePattern="LM3.*"
+             deviceFamilyPattern="ARM.*"
+             packageName="ti.targets.arm"
+             baseTargetName="M3"/>
+        <rtscTarget
+             deviceNamePattern="F28M3.*"
+             deviceFamilyPattern="ARM.*"
+             packageName="ti.targets.arm"
+             baseTargetName="M3"/>
+        <rtscTarget
+             deviceNamePattern="LM4.*"
+             deviceFamilyPattern="ARM.*"
+             packageName="ti.targets.arm"
+             baseTargetName="M4F"/>
+        <rtscTarget
+             deviceNamePattern="TMS570LS.*"
+             deviceFamilyPattern="ARM.*"
+             packageName="ti.targets.arm"
+             baseTargetName="R4Ft"/>
+        <rtscTarget
+             deviceNamePattern=".*"
+             deviceFamilyPattern="C6000.*"
+             CompilerBuildOptionsPattern="-silicon_version=674"
+             packageName="ti.targets"
+             baseTargetName="C674"/>
+        <rtscTarget
+             deviceNamePattern=".*"
+             deviceFamilyPattern="C6000.*"
+             CompilerBuildOptionsPattern="-silicon_version=64[+Pp]"
+             packageName="ti.targets"
+             baseTargetName="C64P"/>
+        <rtscTarget
+             deviceNamePattern=".*"
+             deviceFamilyPattern="C6000.*"
+             CompilerBuildOptionsPattern="-silicon_version=640"
+             packageName="ti.targets"
+             baseTargetName="C64"/>
+        <rtscTarget
+             deviceNamePattern=".*"
+             deviceFamilyPattern="C6000.*"
+             CompilerBuildOptionsPattern="-silicon_version=670"
+             packageName="ti.targets"
+             baseTargetName="C67"/>
+        <rtscTarget
+             deviceNamePattern=".*"
+             deviceFamilyPattern="C6000.*"
+             CompilerBuildOptionsPattern="-silicon_version=67[+Pp]"
+             packageName="ti.targets"
+             baseTargetName="C67P"/>
+        <rtscTarget
+             deviceNamePattern=".*"
+             deviceFamilyPattern="C6000.*"
+             CompilerBuildOptionsPattern="-silicon_version=66"
+             packageName="ti.targets"
+             baseTargetName="C66"/>
+        <rtscTarget
+             deviceNamePattern=".*"
+             deviceFamilyPattern="C6000.*"
+             CompilerBuildOptionsPattern="-silicon_version=tesla"
+             packageName="ti.targets"
+             baseTargetName="C64T"/>
+        <rtscTarget
+             deviceNamePattern="TMS320TCI66.*"
+             deviceFamilyPattern="C6000.*"
+             packageName="ti.targets"
+             baseTargetName="C66"/>
+        <rtscTarget
+             deviceNamePattern=".*"
+             deviceFamilyPattern="ARP32.*"
+             packageName="ti.targets.arp32"
+             baseTargetName="ARP32"/>
+        <rtscTarget
+             deviceNamePattern=".*"
+             deviceFamilyPattern="EVE.*"
+             packageName="ti.targets.arp32"
+             baseTargetName="ARP32"/>
+        <rtscPlatform name="ti.platforms.sim28xx"/>
+        <rtscPlatform name="ti.platforms.simCM3"/>
+        <rtscPlatform name="ti.platforms.evmTCI6484"/>
+        <rtscPlatform name="ti.platforms.evm6678"/>
+        <rtscPlatform name="ti.platforms.evm6614"/>
+        <rtscPlatform name="ti.platforms.evmDA850"/>
+        <rtscPlatform name="ti.platforms.sim64xx"/>
+        <rtscPlatform name="ti.platforms.evmDM6446"/>
+        <rtscPlatform name="ti.platforms.simDucati"/>
+        <rtscPlatform name="ti.platforms.evmDM6467"/>
+        <rtscPlatform name="ti.platforms.evmDM6437"/>
+        <rtscPlatform name="ti.platforms.simDM8168"/>
+        <rtscPlatform name="ti.platforms.simArctic"/>
+        <rtscPlatform name="ti.platforms.evmTI811X"/>
+        <rtscPlatform name="ti.platforms.evmDM6467T"/>
+        <rtscPlatform name="ti.platforms.evmC6A8149"/>
+        <rtscPlatform name="ti.platforms.evmC6A8168"/>
+        <rtscPlatform name="ti.platforms.padk6727"/>
+        <rtscPlatform name="ti.platforms.dsk5510"/>
+        <rtscPlatform name="ti.platforms.load6x"/>
+        <rtscPlatform name="ti.platforms.evm6472"/>
+        <rtscPlatform name="ti.platforms.evm5515"/>
+        <rtscPlatform name="ti.platforms.evm6657"/>
+        <rtscPlatform name="ti.platforms.sim470xx"/>
+        <rtscPlatform name="ti.platforms.dsk5416"/>
+        <rtscPlatform name="ti.platforms.simDM420"/>
+        <rtscPlatform name="ti.platforms.gccLM3S9B90RAM"/>
+        <rtscPlatform name="ti.platforms.evmLM3S8962"/>
+        <rtscPlatform name="ti.platforms.dsk6211"/>
+        <rtscPlatform name="ti.platforms.ez430_chronos"/>
+        <rtscPlatform name="ti.platforms.ezdsp28235"/>
+        <rtscPlatform name="ti.platforms.evm3530"/>
+        <rtscPlatform name="ti.platforms.evmAM3359"/>
+        <rtscPlatform name="ti.platforms.evmTNETV2685"/>
+        <rtscPlatform name="ti.platforms.evmDM357"/>
+        <rtscPlatform name="host.platforms.arm"/>
+        <rtscPlatform name="ti.platforms.evmDM365"/>
+        <rtscPlatform name="ti.platforms.evm2530"/>
+        <rtscPlatform name="ti.platforms.stellaris"/>
+        <rtscPlatform name="ti.platforms.evmAM3517"/>
+        <rtscPlatform name="ti.platforms.sim2810"/>
+        <rtscPlatform name="ti.platforms.simKepler"/>
+        <rtscPlatform name="host.platforms.SUN"/>
+        <rtscPlatform name="ti.platforms.evm6424"/>
+        <rtscPlatform name="ti.platforms.dskTCI6482"/>
+        <rtscPlatform name="ti.platforms.evmTMS570LS20216"/>
+        <rtscPlatform name="ti.platforms.evmTMS570"/>
+        <rtscPlatform name="ti.platforms.sim64Pxx"/>
+        <rtscPlatform name="ti.platforms.simTesla"/>
+        <rtscPlatform name="ti.platforms.evmTI813X"/>
+        <rtscPlatform name="ti.platforms.evm5509A"/>
+        <rtscPlatform name="host.platforms.PC"/>
+        <rtscPlatform name="ti.platforms.generic"/>
+        <rtscPlatform name="ti.platforms.ezdsp2812"/>
+        <rtscPlatform name="ti.platforms.simDM740"/>
+        <rtscPlatform name="ti.platforms.control28346"/>
+        <rtscPlatform name="ti.platforms.evmLM3S9B92"/>
+        <rtscPlatform name="ti.platforms.dsk5402"/>
+        <rtscPlatform name="ti.platforms.evmDM8148"/>
+        <rtscPlatform name="ti.platforms.simDM730"/>
+        <rtscPlatform name="ti.platforms.ezdsp5505"/>
+        <rtscPlatform name="ti.platforms.evmOMAPL137"/>
+        <rtscPlatform name="ti.platforms.evm6457"/>
+        <rtscPlatform name="ti.platforms.evmTI816X"/>
+        <rtscPlatform name="ti.platforms.simTCI6608"/>
+        <rtscPlatform name="ti.platforms.msp430"/>
+        <rtscPlatform name="ti.platforms.innovator1510"/>
+        <rtscPlatform name="ti.platforms.evmAM3505"/>
+        <rtscPlatform name="ti.platforms.app510"/>
+        <rtscPlatform name="ti.platforms.evmDRA459"/>
+        <rtscPlatform name="ti.platforms.sim67xx"/>
+        <rtscPlatform name="ti.platforms.expOMAPL138"/>
+        <rtscPlatform name="ti.platforms.sdp5430"/>
+        <rtscPlatform name="ti.platforms.evmOMAPL138"/>
+        <rtscPlatform name="ti.platforms.tms320x28"/>
+        <rtscPlatform name="ti.platforms.teb5561"/>
+        <rtscPlatform name="ti.platforms.sdp3430"/>
+        <rtscPlatform name="ti.platforms.sim6xxx"/>
+        <rtscPlatform name="ti.platforms.evmDA830"/>
+        <rtscPlatform name="ti.platforms.sdp4430"/>
+        <rtscPlatform name="ti.platforms.ezdsp28335"/>
+        <rtscPlatform name="ti.platforms.evm6747"/>
+        <rtscPlatform name="ti.platforms.ezdsp2808"/>
+        <rtscPlatform name="ti.platforms.sdp2430"/>
+        <rtscPlatform name="ti.platforms.evm6452"/>
+        <rtscPlatform name="ti.platforms.evmDM355"/>
+        <rtscPlatform name="ti.platforms.concertoC28"/>
+        <rtscPlatform name="ti.platforms.sim55xx"/>
+        <rtscPlatform name="ti.platforms.evmTCI6486"/>
+        <rtscPlatform name="ti.platforms.evmDRA446"/>
+        <rtscPlatform name="ti.platforms.dsk6416"/>
+        <rtscPlatform name="ti.platforms.simVayu"/>
+        <rtscPlatform name="ti.platforms.simTCI6498"/>
+        <rtscPlatform name="ti.platforms.evmTNETV107X"/>
+        <rtscPlatform name="ti.platforms.dsk5505"/>
+        <rtscPlatform name="ti.platforms.ts430F5529"/>
+        <rtscPlatform name="ti.platforms.evm5505ext"/>
+        <rtscPlatform name="ti.platforms.simTCI6616"/>
+        <rtscPlatform name="ti.platforms.simARP32"/>
+        <rtscPlatform name="ti.platforms.sim54xx"/>
+        <rtscPlatform name="ti.platforms.osk5912"/>
+        <rtscPlatform name="ti.platforms.evm6474"/>
+        <rtscPlatform name="ti.platforms.evmDM642"/>
+        <rtscPlatform name="ti.platforms.control28027"/>
+        <rtscPlatform name="ti.platforms.sim62xx"/>
+        <rtscPlatform name="ti.platforms.evmDRA416"/>
+        <rtscPlatform name="ti.platforms.concertoM3"/>
+        <rtscPlatform name="ti.platforms.exp430F5529"/>
+        <rtscPlatform name="ti.platforms.ez430_rf2500"/>
+        <rtscPlatform name="ti.platforms.evmTCI6488"/>
+        <rtscPlatform name="ti.platforms.evm6748"/>
+        <rtscPlatform name="ti.platforms.control28335"/>
+        <rtscPlatform name="ti.platforms.dsk6713"/>
+        <rtscPlatform name="xdc.platform.generic"/>
+        <rtscPlatform name="ti.platforms.evmDM648"/>
+        <rtscPlatform name="ti.platforms.evmDM8168"/>
+        <rtscPlatform name="ti.platforms.dsk6455"/>
+        <rtscPlatform name="ti.platforms.evm6670"/>
+        <rtscPlatform name="ti.platforms.evmDM420"/>
+        <rtscPlatform name="ti.platforms.control28069"/>
+        <rtscPlatform name="ti.platforms.evmTI814X"/>
+        <rtscPlatform name="ti.platforms.dsk6711"/>
+        <rtscPlatform name="ti.platforms.control28035"/>
+        <rtscPlatform name="ti.platforms.evmTMS570PSF762"/>
+        <rtscPlatform name="ti.platforms.evm5505"/>
+        <rtscPlatform name="ti.platforms.exp430F5438"/>
+        <info
+            installLocation="../../.."
+            productName="XDCtools"
+            versionNumber="3.24.5.48"
+            containsRTSCPlatforms="true"
+        />
+    </extension>
+
+    <extension point="org.eclipse.rtsc.xdctools.model.productView">
+        <productview
+            moduleName="xdc.productview.ProductView"
+         />
+    </extension>
+
+
+</plugin>

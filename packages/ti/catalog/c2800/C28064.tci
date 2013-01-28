@@ -1,0 +1,36 @@
+/*
+ *  Copyright (c) 2012 by Texas Instruments and others.
+ *  All rights reserved. This program and the accompanying materials
+ *  are made available under the terms of the Eclipse Public License v1.0
+ *  which accompanies this distribution, and is available at
+ *  http://www.eclipse.org/legal/epl-v10.html
+ *
+ *  Contributors:
+ *      Texas Instruments - initial implementation
+ *
+ * */
+
+/*
+ *  ======== C28064.tci ========
+ *
+ */
+
+utils.importFile("ti/catalog/c2800/C28065.tci");
+
+/*
+ *  ======== C28064 ========
+ */
+function C28064(name, parent)
+{
+    /* Since 28064 and 28065 are same from the configuration point of view,
+     * instead of duplicating code, the 28064 device is configured using the
+     * code for 28065 and then only deviceName is changed.
+     */
+
+    C28065.apply(this, [name, parent]);
+    this.deviceName = "28064";
+}
+/*
+ *  @(#) ti.catalog.c2800; 1, 0, 0, 0,401; 8-17-2012 22:13:24; /db/ztree/library/trees/platform/platform-n27x/src/
+ */
+

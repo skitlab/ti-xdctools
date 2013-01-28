@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  This file conforms to the DTD xdc/bld/build.dtd -->
+<package name="ti.targets.rts5500" version="1, 0, 0, 0" producerId="/db/ztree/library/trees/xdctargets/xdctargets-f40x/src/">
+    <units>
+    </units>
+    <sources>
+        <srcFile name="autoinit.s55"/>
+        <srcFile name="autoinit.s55P"/>
+        <srcFile name="boot.s55"/>
+        <srcFile name="boot.s55P"/>
+        <srcFile name="boot_cg.s55"/>
+        <srcFile name="boot_cg.s55P"/>
+        <srcFile name="c55xasm.i"/>
+    </sources>
+    <configscripts>
+    </configscripts>
+    <makefiles>
+        <srcFile name="package.mak" src="package.bld"/>
+        <srcFile name="package/package.xdc.dep" src="package.xdc"/>
+        <srcFile name="package/package.cfg.dep" src="package.xdc"/>
+        <srcFile name="package/rel/ti_targets_rts5500_purec.tar.gz.dep" src="package/rel/ti_targets_rts5500_purec.xdc.inc"/>
+        <srcFile name="package/rel/ti_targets_rts5500.tar.gz.dep" src="package/rel/ti_targets_rts5500.xdc.inc"/>
+    </makefiles>
+    <targets>
+    </targets>
+    <libraries>
+    </libraries>
+    <configurations>
+    </configurations>
+    <executables>
+    </executables>
+    <tests>
+    </tests>
+    <releases relDir="package/rel/">
+    <release name="ti_targets_rts5500_purec"
+        pname="../../../../exports/ti_targets_rts5500_purec.tar.gz"
+        label="purec"
+        relScript="../../../purec.rel">
+        <file name="package/package.bld.xml"/>
+        <file name="package/build.cfg"/>
+        <file name="package/package.xdc.inc"/>
+        <file name="autoinit.s55"/>
+        <file name="autoinit.s55P"/>
+        <file name="boot.s55"/>
+        <file name="boot.s55P"/>
+        <file name="boot_cg.s55"/>
+        <file name="boot_cg.s55P"/>
+        <file name="c55xasm.i"/>
+        <file name="package/package.cfg.xdc.inc"/>
+    </release>
+    <release name="ti_targets_rts5500"
+        pname="../../../../exports/ti_targets_rts5500.tar.gz"
+        label="default"
+        relScript="tisb/release/filters/copyright.rel">
+        <file name="package/package.bld.xml"/>
+        <file name="package/build.cfg"/>
+        <file name="package/package.xdc.inc"/>
+        <file name="autoinit.s55"/>
+        <file name="autoinit.s55P"/>
+        <file name="boot.s55"/>
+        <file name="boot.s55P"/>
+        <file name="boot_cg.s55"/>
+        <file name="boot_cg.s55P"/>
+        <file name="c55xasm.i"/>
+        <file name="package/package.cfg.xdc.inc"/>
+    </release>
+    </releases>
+    <repositories>
+    </repositories>
+</package>

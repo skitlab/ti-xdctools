@@ -1,0 +1,17 @@
+/*
+ *  Copyright 2012 by Texas Instruments Incorporated.
+ *
+ */
+
+Pkg.makeEpilogue = "include custom.mak";
+Pkg.otherFiles = ["elf.h", "docs", "java/package.jar"];
+
+for (var i = 0; i < Build.targets.length; i++) {
+    var targ = Build.targets[i];
+    Pkg.addLibrary("lib/elf", targ).addObjects(["elf.c"]);
+}
+/*
+ *  @(#) ti.targets.omf.elf; 1,0,0,126; 11-4-2012 21:52:35; /db/ztree/library/trees/xdctargets/xdctargets-f40x/src/ xlibrary
+
+ */
+

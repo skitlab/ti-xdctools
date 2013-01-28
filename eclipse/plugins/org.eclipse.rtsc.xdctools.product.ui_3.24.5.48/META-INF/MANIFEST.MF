@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bundle-Name: XDCtools IDE Tooling
+Created-By: 1.5.0_22 (Sun Microsystems Inc.)
+Bundle-Activator: org.eclipse.rtsc.xdctools.ui.CCSActivator
+Bundle-Vendor: Texas Instruments
+Bundle-ManifestVersion: 2
+Bundle-Localization: plugin
+Bundle-SymbolicName: org.eclipse.rtsc.xdctools.product.ui;singleton:=t
+ rue
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.he
+ lp,org.eclipse.rtsc.xdctools.ui
+Bundle-Version: 3.24.5.48
+Eclipse-LazyStart: true
+
+Name: plugin.xml
+SHA1-Digest: fidYVwyJxK3HhasnHY5FOTqlL68=
+
+Name: about.ini
+SHA1-Digest: cksojDvMGvMpqNCFQLmprCZafAM=
+
+Name: rtsc.png
+SHA1-Digest: rWmWCFw0WYxG1+fSHKFhzdxj4J8=
+
+Name: toc_top.xml
+SHA1-Digest: KDBbGrjIE4eVT95X2Bj8XRjN6k0=
+
+Name: cdoc_toc.xml
+SHA1-Digest: fCAGlPaJ1fZHPSflCxok1qA7tm4=
+

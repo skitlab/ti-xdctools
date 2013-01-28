@@ -1,0 +1,90 @@
+%%{
+/*
+ *  Copyright (c) 2012 by Texas Instruments and others.
+ *  All rights reserved. This program and the accompanying materials
+ *  are made available under the terms of the Eclipse Public License v1.0
+ *  which accompanies this distribution, and is available at
+ *  http://www.eclipse.org/legal/epl-v10.html
+ *
+ *  Contributors:
+ *      Texas Instruments - initial implementation
+ *
+ * */
+
+%%}
+%/*
+% *  ======== Boot.xdt ========
+% *
+% *! Revision History
+% *! ================
+% *! 07-Jun-2012 sg    added C28 RAM init
+% *! 24-Apr-2012 sg    added Flash controller init
+% *! 15-Aug-2011 sg    removed bootAddressC28
+% *! 11-Jul-2011 sg    added bootC28
+% *! 30-Jun-2011 sg    created
+% */
+% /* Don't generate Boot funcs if this is a romimage */
+% if (!Program.$$isrom && (Program.build.rtsName !== null)) {
+%var Boot = xdc.module("ti.catalog.arm.cortexm3.concertoInit.Boot");
+    extern ti_catalog_arm_cortexm3_concertoInit_Boot_configurePllDivs(UInt iMult, UInt fMult, UInt sysDiv, UInt m3Div);
+    extern ti_catalog_arm_cortexm3_concertoInit_Boot_stepDelay(Void);
+    extern ti_catalog_arm_cortexm3_concertoInit_Boot_initC28RAMs(Void);
+    extern ti_catalog_arm_cortexm3_concertoInit_Boot_bootC28(Void);
+    extern ti_catalog_arm_cortexm3_concertoInit_Boot_initFlash(Bool configWaitStates, UInt waitStates, Bool enableProgramCache, Bool enableDataCache);
+
+#if defined(__ti__)
+#pragma CODE_SECTION(ti_catalog_arm_cortexm3_concertoInit_Boot_init, ".text:.bootCodeSection")
+#pragma CODE_SECTION(ti_catalog_arm_cortexm3_concertoInit_Boot_initStartup, ".text:.bootCodeSection")
+#pragma CODE_SECTION(ti_catalog_arm_cortexm3_concertoInit_Boot_limpAbort, ".text:.bootCodeSection")
+#endif
+
+/*
+ *  ======== ti_catalog_arm_cortexm3_concertoInit_Boot_init ========
+ *  Boot initialization run as an xdc.runtime.Reset function.
+ */
+Void ti_catalog_arm_cortexm3_concertoInit_Boot_init()
+{
+%if (Boot.configureClocks == true) {
+    ti_catalog_arm_cortexm3_concertoInit_Boot_configurePllDivs(`Boot.SPLLIMULT`, `Boot.SPLLFMULT`, `Boot.SYSDIVSEL`, `Boot.M3SSDIVSEL`);
+%}
+
+%if (Boot.bootC28 == true) {
+
+%if (Boot.initC28RAMs == true) {
+    ti_catalog_arm_cortexm3_concertoInit_Boot_initC28RAMs();
+%}
+
+    ti_catalog_arm_cortexm3_concertoInit_Boot_bootC28();
+%}
+}
+
+/*
+ *  ======== ti_catalog_arm_cortexm3_concertoInit_Boot_initStartup ========
+ *  Boot initialization run as an xdc.runtime.Startup first function.
+ */
+Void ti_catalog_arm_cortexm3_concertoInit_Boot_initStartup()
+{
+%if ((Boot.configureFlashWaitStates == true) || (Boot.enableFlashProgramCache == true) || (Boot.enableFlashDataCache == true) ) {
+    ti_catalog_arm_cortexm3_concertoInit_Boot_initFlash(`Number(Boot.configureFlashWaitStates)`, `Number(Boot.flashWaitStates)`, `Number(Boot.enableFlashProgramCache)`, `Number(Boot.enableFlashDataCache)`);
+%}
+}
+
+/*
+ *  ======== ti_catalog_arm_cortexm3_concertoInit_Boot_limpAbort ========
+ */
+Void ti_catalog_arm_cortexm3_concertoInit_Boot_limpAbort(Void)
+{
+%var cname;
+%       cname = String(Boot.limpAbortFunction);
+%       cname = cname.substr(1);
+    extern `cname`();
+    `cname`();
+}
+%}
+
+%%{
+/*
+ * @(#) ti.catalog.arm.cortexm3.concertoInit; 1, 0, 0,35; 8-17-2012 22:13:13; /db/ztree/library/trees/platform/platform-n27x/src/
+ */
+
+%%}

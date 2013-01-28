@@ -1,0 +1,48 @@
+/*
+ *  Copyright (c) 2012 by Texas Instruments and others.
+ *  All rights reserved. This program and the accompanying materials
+ *  are made available under the terms of the Eclipse Public License v1.0
+ *  which accompanies this distribution, and is available at
+ *  http://www.eclipse.org/legal/epl-v10.html
+ *
+ *  Contributors:
+ *      Texas Instruments - initial implementation
+ *
+ * */
+
+/*
+ *  ======== Platform.tci ========
+ *
+ */
+
+/*
+ * The following comment is used by the Graphical Config Tool:
+ * !DESCRIPTION 2XXX! controlCARD 28069 (80 MHz). 
+ * !NAME! ti.platforms.control28069
+ */
+
+
+/*
+ * Setup platform-specific memory map, CLK rate, etc.
+ */
+var device_regs = {
+    pllcr: 16,
+    plldiv: 2,
+    clkin: 10000
+};
+
+var params = {
+    clockRate: 80.0000, /* (16 * 10MHz) / 2 = 80MHz */
+    catalogName: "ti.catalog.c2800",
+    deviceName: "28069",
+    regs: device_regs,
+};
+
+/*
+ * Customize generic platform with parameters specified above.
+ */
+utils.loadPlatform("ti.platforms.generic", params);
+/*
+ *  @(#) ti.platforms.control28069; 1, 0, 0,68; 8-17-2012 22:13:46; /db/ztree/library/trees/platform/platform-n27x/src/
+ */
+

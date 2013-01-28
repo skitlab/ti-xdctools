@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  This file conforms to the DTD xdc/bld/build.dtd -->
+<package name="ti.catalog.msp430.peripherals.gpio" version="1, 0, 0" producerId="/db/ztree/library/trees/gep/gep-e63x/src/">
+    <units>
+        <interface name="IGPIO"/>
+        <module name="GPIO_MSP430G2210"/>
+        <module name="GPIO_MSP430G2230"/>
+        <module name="GPIO_MSP430G2x01"/>
+        <module name="GPIO_MSP430G2x11"/>
+        <module name="GPIO_MSP430G2x21"/>
+        <module name="GPIO_MSP430G2x31"/>
+        <module name="GPIO_MSP430G2x02"/>
+        <module name="GPIO_MSP430G2x12"/>
+        <module name="GPIO_MSP430G2x32"/>
+        <module name="GPIO_MSP430G2x52"/>
+        <module name="GPIO_MSP430G2x03"/>
+        <module name="GPIO_MSP430G2x13"/>
+        <module name="GPIO_MSP430G2x33"/>
+        <module name="GPIO_MSP430G2x53"/>
+        <module name="GPIO_MSP430F20x1"/>
+        <module name="GPIO_MSP430F20x2"/>
+        <module name="GPIO_MSP430F20x3"/>
+        <module name="GPIO_MSP430F21x1"/>
+        <module name="GPIO_MSP430F21x2"/>
+        <module name="GPIO_MSP430F22x2"/>
+        <module name="GPIO_MSP430F22x4"/>
+        <module name="GPIO_MSP430F261x"/>
+        <module name="GPIO_MSP430F241x"/>
+        <module name="GPIO_MSP430F23x0"/>
+        <module name="GPIO_MSP430F23x"/>
+        <module name="GPIO_MSP430F24x1"/>
+        <module name="GPIO_MSP430F24x"/>
+        <module name="GPIO_MSP430F543xA"/>
+        <module name="GPIO_MSP430FR5739_35_31_29_25_21"/>
+        <module name="GPIO_MSP430FR5737_33_27_23"/>
+        <module name="GPIO_MSP430FR5738_34_30_28_24_20"/>
+        <module name="GPIO_MSP430FR5736_32_26_22"/>
+        <module name="GPIO_MSP430FR59xx_FR58xx"/>
+    </units>
+    <sources>
+    </sources>
+    <configscripts>
+    </configscripts>
+    <makefiles>
+        <srcFile name="package.mak" src="package.bld"/>
+        <srcFile name="package/package.xdc.dep" src="package.xdc"/>
+        <srcFile name="package/package.cfg.dep" src="package.xdc"/>
+        <srcFile name="package/rel/ti_catalog_msp430_peripherals_gpio.zip.dep" src="package/rel/ti_catalog_msp430_peripherals_gpio.xdc.inc"/>
+    </makefiles>
+    <targets>
+    </targets>
+    <libraries>
+    </libraries>
+    <configurations>
+    </configurations>
+    <executables>
+    </executables>
+    <tests>
+    </tests>
+    <releases relDir="package/rel/">
+    <release name="ti_catalog_msp430_peripherals_gpio"
+        pname="../../../../..//../exports/ti_catalog_msp430_peripherals_gpio.zip"
+        label="default"
+    >
+        <file name="package/package.bld.xml"/>
+        <file name="package/build.cfg"/>
+        <file name="package/package.xdc.inc"/>
+        <file name="package/package.cfg.xdc.inc"/>
+    </release>
+    </releases>
+    <repositories>
+    </repositories>
+</package>

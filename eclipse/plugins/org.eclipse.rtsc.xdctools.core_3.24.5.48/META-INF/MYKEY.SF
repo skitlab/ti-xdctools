@@ -1,0 +1,29 @@
+Signature-Version: 1.0
+Created-By: 1.5.0_22 (Sun Microsystems Inc.)
+SHA1-Digest-Manifest-Main-Attributes: LMluaLx2thYshQwaIKDqxM44IsY=
+SHA1-Digest-Manifest: FIpIffIIwGUXkL4VhKJbmAaPvZ0=
+
+Name: bin/org/eclipse/rtsc/xdctools/core/CorePlugin.class
+SHA1-Digest: 8tg3MZAJlhQltdLMv476SeTtWRU=
+
+Name: packages/xdc/services/spec/java/package.jar
+SHA1-Digest: pmn1ari/+CQ4xh9iiNFwbDTyPAQ=
+
+Name: packages/xdc/shelf/java/js.jar
+SHA1-Digest: /70S5QTLLeQ7vd8UxoRDry3JIRA=
+
+Name: packages/xdc/services/spec/views/java/package.jar
+SHA1-Digest: iV0n0bvwSvZI+c/M/Nh2suHTaM4=
+
+Name: packages/xdc/services/intern/gen/java/package.jar
+SHA1-Digest: TQ2A/NPMVCGFJC8BYAbmQDrBRxI=
+
+Name: packages/xdc/services/global/java/package.jar
+SHA1-Digest: 582WLFuToapXmkrHdLryaR4STjU=
+
+Name: config.jar
+SHA1-Digest: /BE5CtjVlkj1r6WvjRF//3/3f18=
+
+Name: packages/xdc/shelf/java/antlr.jar
+SHA1-Digest: QN6OjeuU2ew6WhsJgMQddJRCHD0=
+

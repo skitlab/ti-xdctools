@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  This file conforms to the DTD xdc/bld/build.dtd -->
+<package name="gnu.targets.arm.rts470uC" version="1, 0, 0, 0" producerId="/db/ztree/library/trees/xdctargets/xdctargets-f40x/src/">
+    <units>
+    </units>
+    <sources>
+        <srcFile name="package.bld"/>
+        <srcFile name="package/package_gnu.targets.arm.rts470uC.c"/>
+        <srcFile name="xdc/runtime/Assert.c"/>
+        <srcFile name="xdc/runtime/Core-mem.c"/>
+        <srcFile name="xdc/runtime/Core-smem.c"/>
+        <srcFile name="xdc/runtime/Core-label.c"/>
+        <srcFile name="xdc/runtime/Core-params.c"/>
+        <srcFile name="xdc/runtime/Diags.c"/>
+        <srcFile name="xdc/runtime/Error.c"/>
+        <srcFile name="xdc/runtime/Gate.c"/>
+        <srcFile name="xdc/runtime/GateNull.c"/>
+        <srcFile name="xdc/runtime/HeapMin.c"/>
+        <srcFile name="xdc/runtime/HeapStd.c"/>
+        <srcFile name="xdc/runtime/Log.c"/>
+        <srcFile name="xdc/runtime/LoggerBuf.c"/>
+        <srcFile name="xdc/runtime/LoggerCallback.c"/>
+        <srcFile name="xdc/runtime/LoggerSys.c"/>
+        <srcFile name="xdc/runtime/Memory.c"/>
+        <srcFile name="xdc/runtime/Registry.c"/>
+        <srcFile name="xdc/runtime/Rta.c"/>
+        <srcFile name="xdc/runtime/Startup.c"/>
+        <srcFile name="xdc/runtime/System.c"/>
+        <srcFile name="xdc/runtime/SysCallback.c"/>
+        <srcFile name="xdc/runtime/SysMin.c"/>
+        <srcFile name="xdc/runtime/SysStd.c"/>
+        <srcFile name="xdc/runtime/Text.c"/>
+        <srcFile name="xdc/runtime/Timestamp.c"/>
+        <srcFile name="xdc/runtime/TimestampNull.c"/>
+        <srcFile name="xdc/runtime/TimestampStd.c"/>
+        <srcFile name="xdc/runtime/xdc_init.cpp"/>
+        <srcFile name="xdc/runtime/knl/Cache.c"/>
+        <srcFile name="xdc/runtime/knl/GateThread.c"/>
+        <srcFile name="xdc/runtime/knl/Semaphore.c"/>
+        <srcFile name="xdc/runtime/knl/SyncNull.c"/>
+        <srcFile name="xdc/runtime/knl/GateH.c"/>
+        <srcFile name="xdc/runtime/knl/SemProcess.c"/>
+        <srcFile name="xdc/runtime/knl/Sync.c"/>
+        <srcFile name="xdc/runtime/knl/SyncSemThread.c"/>
+        <srcFile name="xdc/runtime/knl/GateProcess.c"/>
+        <srcFile name="xdc/runtime/knl/SemThread.c"/>
+        <srcFile name="xdc/runtime/knl/SyncGeneric.c"/>
+        <srcFile name="xdc/runtime/knl/Thread.c"/>
+        <srcFile name="xdc/runtime/knl/CacheSupportNull.c"/>
+        <srcFile name="xdc/runtime/knl/GateThreadSupportNull.c"/>
+        <srcFile name="xdc/runtime/knl/GateProcessSupportNull.c"/>
+    </sources>
+    <configscripts>
+    </configscripts>
+    <makefiles>
+        <srcFile name="package.mak" src="package.bld"/>
+        <srcFile name="package/package.xdc.dep" src="package.xdc"/>
+        <srcFile name="package/package.cfg.dep" src="package.xdc"/>
+        <srcFile name="lib/gnu.targets.arm.rts470uC.a470uC.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/package/package_gnu.targets.arm.rts470uC.o470uC.dep" src="package/package_gnu.targets.arm.rts470uC.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/Assert.o470uC.dep" src="xdc/runtime/Assert.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/Core-mem.o470uC.dep" src="xdc/runtime/Core-mem.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/Core-smem.o470uC.dep" src="xdc/runtime/Core-smem.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/Core-label.o470uC.dep" src="xdc/runtime/Core-label.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/Core-params.o470uC.dep" src="xdc/runtime/Core-params.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/Diags.o470uC.dep" src="xdc/runtime/Diags.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/Error.o470uC.dep" src="xdc/runtime/Error.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/Gate.o470uC.dep" src="xdc/runtime/Gate.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/GateNull.o470uC.dep" src="xdc/runtime/GateNull.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/HeapMin.o470uC.dep" src="xdc/runtime/HeapMin.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/HeapStd.o470uC.dep" src="xdc/runtime/HeapStd.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/Log.o470uC.dep" src="xdc/runtime/Log.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/LoggerBuf.o470uC.dep" src="xdc/runtime/LoggerBuf.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/LoggerCallback.o470uC.dep" src="xdc/runtime/LoggerCallback.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/LoggerSys.o470uC.dep" src="xdc/runtime/LoggerSys.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/Memory.o470uC.dep" src="xdc/runtime/Memory.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/Registry.o470uC.dep" src="xdc/runtime/Registry.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/Rta.o470uC.dep" src="xdc/runtime/Rta.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/Startup.o470uC.dep" src="xdc/runtime/Startup.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/System.o470uC.dep" src="xdc/runtime/System.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/SysCallback.o470uC.dep" src="xdc/runtime/SysCallback.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/SysMin.o470uC.dep" src="xdc/runtime/SysMin.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/SysStd.o470uC.dep" src="xdc/runtime/SysStd.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/Text.o470uC.dep" src="xdc/runtime/Text.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/Timestamp.o470uC.dep" src="xdc/runtime/Timestamp.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/TimestampNull.o470uC.dep" src="xdc/runtime/TimestampNull.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/TimestampStd.o470uC.dep" src="xdc/runtime/TimestampStd.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/xdc_init.o470uC.dep" src="xdc/runtime/xdc_init.cpp"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/knl/Cache.o470uC.dep" src="xdc/runtime/knl/Cache.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/knl/GateThread.o470uC.dep" src="xdc/runtime/knl/GateThread.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/knl/Semaphore.o470uC.dep" src="xdc/runtime/knl/Semaphore.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/knl/SyncNull.o470uC.dep" src="xdc/runtime/knl/SyncNull.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/knl/GateH.o470uC.dep" src="xdc/runtime/knl/GateH.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/knl/SemProcess.o470uC.dep" src="xdc/runtime/knl/SemProcess.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/knl/Sync.o470uC.dep" src="xdc/runtime/knl/Sync.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/knl/SyncSemThread.o470uC.dep" src="xdc/runtime/knl/SyncSemThread.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/knl/GateProcess.o470uC.dep" src="xdc/runtime/knl/GateProcess.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/knl/SemThread.o470uC.dep" src="xdc/runtime/knl/SemThread.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/knl/SyncGeneric.o470uC.dep" src="xdc/runtime/knl/SyncGeneric.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/knl/Thread.o470uC.dep" src="xdc/runtime/knl/Thread.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/knl/CacheSupportNull.o470uC.dep" src="xdc/runtime/knl/CacheSupportNull.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/knl/GateThreadSupportNull.o470uC.dep" src="xdc/runtime/knl/GateThreadSupportNull.c"/>
+        <srcFile name="package/lib/lib/gnu.targets.arm.rts470uC/xdc/runtime/knl/GateProcessSupportNull.o470uC.dep" src="xdc/runtime/knl/GateProcessSupportNull.c"/>
+        <srcFile name="package/rel/gnu_targets_arm_rts470uC_purec.tar.gz.dep" src="package/rel/gnu_targets_arm_rts470uC_purec.xdc.inc"/>
+        <srcFile name="package/rel/gnu_targets_arm_rts470uC.tar.gz.dep" src="package/rel/gnu_targets_arm_rts470uC.xdc.inc"/>
+    </makefiles>
+    <targets>
+        <target name="gnu.targets.arm.UCArm9"
+            version="gnu.targets.arm.UCArm9{1,0,4.2,1"
+            platform="ti.platforms.evmDM6446"
+            isa="v5T"
+            suffix="470uC"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/opensource/buildroot/10122007/build_arm/staging_dir/usr"
+            os="Linux"
+            rts="gnu.targets.arm.rts470uC">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+    </targets>
+    <libraries>
+    <library name="lib/gnu.targets.arm.rts470uC"
+        pname="lib/gnu.targets.arm.rts470uC.a470uC"
+        profile="release"
+        target="gnu.targets.arm.UCArm9"/>
+    </libraries>
+    <configurations>
+    </configurations>
+    <executables>
+    </executables>
+    <tests>
+    </tests>
+    <releases relDir="package/rel/">
+    <release name="gnu_targets_arm_rts470uC_purec"
+        pname="../../../../../exports/gnu_targets_arm_rts470uC_purec.tar.gz"
+        label="purec"
+        relScript="../../../../purec.rel">
+        <file name="package/package.bld.xml"/>
+        <file name="package/build.cfg"/>
+        <file name="package/package.xdc.inc"/>
+        <file name="package.bld"/>
+        <file name="package/package.cfg.xdc.inc"/>
+    </release>
+    <release name="gnu_targets_arm_rts470uC"
+        pname="../../../../../exports/gnu_targets_arm_rts470uC.tar.gz"
+        label="default"
+        relScript="tisb/release/filters/copyright.rel">
+        <file name="package/package.bld.xml"/>
+        <file name="package/build.cfg"/>
+        <file name="package/package.xdc.inc"/>
+        <file name="package.bld"/>
+        <file name="package/package.cfg.xdc.inc"/>
+        <file name="lib/gnu.targets.arm.rts470uC.a470uC"/>
+    </release>
+    </releases>
+    <repositories>
+    </repositories>
+</package>

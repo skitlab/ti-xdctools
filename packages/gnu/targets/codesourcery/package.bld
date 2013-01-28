@@ -1,0 +1,11 @@
+/*
+ *  Copyright 2012 by Texas Instruments Incorporated.
+ *
+ */
+
+Pkg.otherSrcs = ["linkcmd.xdt"];
+/*
+ *  @(#) gnu.targets.codesourcery; 1, 0, 0, 0,463; 11-4-2012 21:21:13; /db/ztree/library/trees/xdctargets/xdctargets-f40x/src/ xlibrary
+
+ */
+

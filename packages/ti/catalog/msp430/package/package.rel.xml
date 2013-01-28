@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  This file conforms to the DTD xdc/bld/release.dtd -->
+<release name="ti_catalog_msp430" label="default" date="1351990965938" buildCount="105" producerId="/db/ztree/library/trees/gep/gep-e63x/src/">
+<package name="ti.catalog.msp430"
+    version="1, 0, 0"/>
+<imports>
+    <package name="xdc.platform"
+        version=""/>
+    <package name="ti.catalog"
+        version=""/>
+</imports>
+<references>
+    <package name="xdc"
+        version="1, 1, 1, 1351981135813"
+        providerId="xdccore">
+        <file name="IPackage.xdc"/>
+        <file name="IPackage.xs"/>
+        <file name="om2.xs"/>
+        <file name="package.xs"/>
+        <file name="template.xs"/>
+        <file name="xdc.tci"/>
+        <file name="xmlgen.xs"/>
+        <file name="xmlgen2.xs"/>
+    </package>
+    <package name="xdc.services.global"
+        version="1, 0, 0, 1351981154975"
+        providerId="xdccore">
+        <file name="Clock.xs"/>
+        <file name="Trace.xs"/>
+        <file name="java/package.jar"/>
+    </package>
+    <package name="xdc.bld"
+        version="1, 0, 2, 1351981138041"
+        providerId="xdccore">
+        <file name="BuildEnvironment.xs"/>
+        <file name="Configuration.xs"/>
+        <file name="Executable.xs"/>
+        <file name="ITarget.xs"/>
+        <file name="ITarget2.xs"/>
+        <file name="ITargetFilter.xs"/>
+        <file name="Library.xs"/>
+        <file name="Manifest.xs"/>
+        <file name="PackageContents.xs"/>
+        <file name="Repository.xs"/>
+        <file name="Script.xs"/>
+        <file name="Utils.xs"/>
+        <file name="_gen.xs"/>
+        <file name="bld.js"/>
+        <file name="package.xs"/>
+    </package>
+    <package name="ti.catalog"
+        version="1, 0, 0, 1345180384263"
+        providerId="xdccore">
+        <file name="ICpuDataSheet.xdc"/>
+    </package>
+    <package name="xdc.platform"
+        version="1, 0, 1, 0, 1351981144253"
+        providerId="xdccore">
+        <file name="ICpuDataSheet.xdc"/>
+        <file name="IPeripheral.xdc"/>
+        <file name="IPlatform.xdc"/>
+    </package>
+    <package name="ti.catalog.msp430.peripherals.special_function"
+        version="1, 0, 0, 1351990795000"
+        providerId="/db/ztree/library/trees/gep/gep-e63x/src">
+        <file name="IE1.xdc"/>
+        <file name="IE2.xdc"/>
+    </package>
+    <package name="ti.catalog.msp430.peripherals.timer"
+        version="1, 0, 0, 1351990795000"
+        providerId="/db/ztree/library/trees/gep/gep-e63x/src">
+        <file name="ITimer.xdc"/>
+        <file name="ITimer_A.xdc"/>
+        <file name="ITimer_B.xdc"/>
+        <file name="Timer0_A5.xdc"/>
+        <file name="Timer0_B7.xdc"/>
+        <file name="Timer1_A3.xdc"/>
+        <file name="Timer2_A3.xdc"/>
+        <file name="Timer_A3.xdc"/>
+        <file name="Timer_B3.xdc"/>
+    </package>
+    <package name="ti.catalog.msp430.peripherals.clock"
+        version="1, 0, 0, 1351990781000"
+        providerId="/db/ztree/library/trees/gep/gep-e63x/src">
+        <file name="BCSplus.xdc"/>
+        <file name="IClock.xdc"/>
+    </package>
+    <package name="ti.catalog.msp430.peripherals.watchdog"
+        version="1, 0, 0, 1351990797000"
+        providerId="/db/ztree/library/trees/gep/gep-e63x/src">
+        <file name="IWDT.xdc"/>
+        <file name="WDTplus.xdc"/>
+    </package>
+    <package name="ti.catalog.msp430.peripherals.interrupt"
+        version="1, 0, 0, 1351990789000"
+        providerId="/db/ztree/library/trees/gep/gep-e63x/src">
+        <file name="Interrupt_Controller.xdc"/>
+    </package>
+    <package name="ti.catalog.msp430.peripherals.communication"
+        version="1, 0, 0, 1351990781000"
+        providerId="/db/ztree/library/trees/gep/gep-e63x/src">
+        <file name="IUSCI.xdc"/>
+        <file name="IUSCI_A0_SPI.xdc"/>
+        <file name="IUSCI_A0_UART.xdc"/>
+        <file name="IUSCI_B0_I2C.xdc"/>
+        <file name="IUSCI_B0_SPI.xdc"/>
+        <file name="IUSCI_I2C.xdc"/>
+        <file name="IUSCI_SPI.xdc"/>
+        <file name="IUSCI_UART.xdc"/>
+        <file name="USCI_A0_SPI_2xx.xdc"/>
+        <file name="USCI_A0_UART_2xx.xdc"/>
+        <file name="USCI_B0_I2C_2xx.xdc"/>
+        <file name="USCI_B0_SPI_2xx.xdc"/>
+    </package>
+    <package name="ti.catalog.msp430.peripherals.adc"
+        version="1, 0, 0, 1351990781000"
+        providerId="/db/ztree/library/trees/gep/gep-e63x/src">
+        <file name="ADC10.xdc"/>
+        <file name="IADC.xdc"/>
+    </package>
+    <package name="ti.catalog.msp430.peripherals.oa"
+        version="1, 0, 0, 1351990790000"
+        providerId="/db/ztree/library/trees/gep/gep-e63x/src">
+        <file name="IOA.xdc"/>
+        <file name="OA_2.xdc"/>
+    </package>
+    <package name="ti.catalog.msp430.peripherals.gpio"
+        version="1, 0, 0, 1351990788000"
+        providerId="/db/ztree/library/trees/gep/gep-e63x/src">
+        <file name="GPIO_MSP430F22x4.xdc"/>
+        <file name="IGPIO.xdc"/>
+    </package>
+    <package name="ti.catalog.msp430.peripherals.memory"
+        version="1, 0, 0, 1351990790000"
+        providerId="/db/ztree/library/trees/gep/gep-e63x/src">
+        <file name="Flash_2xx.xdc"/>
+        <file name="IFlash.xdc"/>
+    </package>
+    <package name="xdc.shelf"
+        version="1, 0, 0, 1351981167310"
+        providerId="xdccore">
+        <file name="java/antlr.jar"/>
+        <file name="java/ecj.jar"/>
+        <file name="java/js.jar"/>
+        <file name="java/tar.jar"/>
+    </package>
+    <package name="xdc.services.spec"
+        version="1, 0, 0, 0, 1351981160609"
+        providerId="xdccore">
+        <file name="java/package.jar"/>
+    </package>
+    <package name="xdc.services.intern.gen"
+        version="1, 0, 0, 0, 1351981157080"
+        providerId="xdccore">
+        <file name="java/package.jar"/>
+    </package>
+    <package name="xdc.services.intern.cmd"
+        version="1, 0, 0, 0, 1351981156401"
+        providerId="xdccore">
+        <file name="java/package.jar"/>
+    </package>
+    <package name="xdc.services.intern.xsr"
+        version="1, 0, 0, 1351981157261"
+        providerId="xdccore">
+        <file name="java/package.jar"/>
+    </package>
+    <xdcRoot base="/db/rtree/library/trees/xdcprod/xdcprod-q45/product/Linux/xdctools_3_24_05_45_eng/">
+        <file name="/packages/xdc/package.xdc"/>
+        <file name="include/utils.tci"/>
+        <xdcCorePkg version="16, 0, 2, 0, 1351981142934" producerId="/db/ztree/library/trees/xdc/xdc-y44x/src/packages" buildCount="384" releaseName="xdc_corevers" label="default" date="1351981142934"/>
+    </xdcRoot>
+</references>
+<orphans>
+    <file name="/db/ztree/library/trees/gep/gep-e63x/src/config.bld"/>
+</orphans>
+</release>

@@ -1,0 +1,109 @@
+%%{
+/*
+ *  Copyright 2012 by Texas Instruments Incorporated.
+ *
+ */
+
+%%}
+%    var template = $args[0];
+%    var descriptionarray = $args[1];
+%    var productId = $args[2];
+%    var templateGroupArr = $args[3];
+<?xml version="1.0" encoding="UTF-8"?>
+<projectSpec>
+%       var index = 0;
+%       for each(var filter in template.filterArr) {
+           <applicability>
+%           var appl = descriptionarray.applicabilityArr.pop();
+%           if (appl != undefined && appl.whenArr.length > 0) {
+               <when>
+                    <context
+%              for each (var w in appl.whenArr)  {
+                       `w.key`="`w.value`"
+%              }
+                    />
+               </when>
+%           }
+%           if (appl != undefined && appl.exceptArr.length > 0) {
+               <except>
+                    <context
+%              for each (var ex in appl.exceptArr)  {
+                       `ex.key`="`ex.value`"
+%              }
+                    />
+               </except>
+%           }
+            </applicability>
+%       }
+
+     <project
+         title="`template.title`"
+%       if (template.linkerCommandFile != undefined) {
+                 linkerCommandFile="`template.linkerCommandFile`"
+%       }
+%       if (template.compilerBuildOptions != undefined) {
+                 compilerBuildOptions="`template.compilerBuildOptions`"
+%       }
+%       if (template.linkerBuildOptions != undefined) {
+                 linkerBuildOptions="`template.linkerBuildOptions`"
+%       }
+                 description="`template.description`">
+%                var configOnlyProject = (template.configOnly != undefined)?
+%                                           template.configOnly : false;
+%                var projectType = configOnlyProject ? "rtscConfiguration":"rtsc";
+%                if (template.legacyTcf) {
+%                    projectType = "bios5"
+%                }
+                 <property name="type" value="`projectType`"/>
+%                var reqProdString = productId;
+%                for each(var prod in template.requiredProducts) {
+%                    reqProdString =  reqProdString + ";" + prod;
+%                }
+                 <property name="products" value="`reqProdString`"/>
+%       if (template.target != undefined) {
+                 <property name="target" value="`template.target`"/>
+%       }
+%       if (template.platform != undefined) {
+                 <property name="platform" value="`template.platform`"/>
+%       }
+%       if (template.buildProfile != undefined) {
+                 <property name="buildProfile" value="`template.buildProfile`"/>
+%       }
+%       if (template.isHybrid != undefined) {
+                 <property name="isHybrid" value="`template.isHybrid`"/>
+%       }
+%       if (template.configuroOptions != null) { /* should we use encodeURI() to encode the string ? */
+                 <property name="configuroOptions" value="`template.configuroOptions`"/>
+%       }
+%       if (template.groups != undefined) {
+%           for each (var g in template.groups) {
+                 <group id="`g`"/>
+%           }
+%       }
+%       /* Refer to default group if no groups are defined by the template provider */
+%       if (templateGroupArr.length == 0)  {
+                 <group id="`this.productSchema.id`.templates"/>
+%       }
+%       for each (var f in template.fileList) {
+%          var bldExclude =
+%               (f.excludeFromBuild != undefined)? f.excludeFromBuild:false;
+%          var openFile =
+%               (f.openOnCreation != undefined)? f.openOnCreation:false;
+                 <file path="`f.path`" openOnCreation="`openFile`" excludeFromBuild="`bldExclude`">
+%                if  (f.copyIntoConfiguration != undefined) {
+                     <property name="copyIntoConfiguration" value="`f.copyIntoConfiguration`"/>
+%                }
+                 </file>
+%       }
+     </project>
+
+
+
+</projectSpec>
+
+%%{
+/*
+ * @(#) xdc.tools.product.trexgen; 1, 0, 0,4; 10-28-2012 21:41:22; /db/ztree/library/trees/xdctools/xdctools-f16x/src/
+ */
+
+%%}

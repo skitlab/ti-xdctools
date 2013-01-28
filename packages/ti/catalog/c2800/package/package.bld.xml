@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  This file conforms to the DTD xdc/bld/build.dtd -->
+<package name="ti.catalog.c2800" version="1, 0, 0, 0" producerId="/db/ztree/library/trees/platform/platform-n27x/src/">
+    <units>
+        <interface name="ITMS320C28xx"/>
+        <interface name="ITMS320C283xx"/>
+        <interface name="ITMS320C28026"/>
+        <interface name="ITMS320C28027"/>
+        <interface name="ITMS320C28032"/>
+        <interface name="ITMS320C28034"/>
+        <interface name="ITMS320C28342"/>
+        <interface name="ITMS320C28344"/>
+        <interface name="ITMS320C28346"/>
+        <interface name="ITMS320F28065"/>
+        <interface name="ITMS320F28069"/>
+        <module name="TMS320C2801"/>
+        <module name="TMS320C2802"/>
+        <module name="TMS320C2806"/>
+        <module name="TMS320C2808"/>
+        <module name="TMS320C2809"/>
+        <module name="TMS320C2810"/>
+        <module name="TMS320C2811"/>
+        <module name="TMS320C2812"/>
+        <module name="TMS320C28015"/>
+        <module name="TMS320C28016"/>
+        <module name="TMS320C28232"/>
+        <module name="TMS320C28234"/>
+        <module name="TMS320C28235"/>
+        <module name="TMS320C28332"/>
+        <module name="TMS320C28334"/>
+        <module name="TMS320C28335"/>
+        <module name="TMS320C28020"/>
+        <module name="TMS320C28021"/>
+        <module name="TMS320C28022"/>
+        <module name="TMS320C28026"/>
+        <module name="TMS320C28023"/>
+        <module name="TMS320C28027"/>
+        <module name="TMS320C28030"/>
+        <module name="TMS320C28031"/>
+        <module name="TMS320C28032"/>
+        <module name="TMS320C28033"/>
+        <module name="TMS320C28034"/>
+        <module name="TMS320C28035"/>
+        <module name="TMS320C28044"/>
+        <module name="TMS320C28341"/>
+        <module name="TMS320C28342"/>
+        <module name="TMS320C28343"/>
+        <module name="TMS320C28344"/>
+        <module name="TMS320C28345"/>
+        <module name="TMS320C28346"/>
+        <module name="TMS320F28062"/>
+        <module name="TMS320F28063"/>
+        <module name="TMS320F28064"/>
+        <module name="TMS320F28065"/>
+        <module name="TMS320F28066"/>
+        <module name="TMS320F28067"/>
+        <module name="TMS320F28068"/>
+        <module name="TMS320F28069"/>
+        <module name="F28M35x"/>
+    </units>
+    <sources>
+    </sources>
+    <configscripts>
+    </configscripts>
+    <makefiles>
+        <srcFile name="package.mak" src="package.bld"/>
+        <srcFile name="package/package.xdc.dep" src="package.xdc"/>
+        <srcFile name="package/package.cfg.dep" src="package.xdc"/>
+        <srcFile name="package/rel/ti_catalog_c2800.tar.dep" src="package/rel/ti_catalog_c2800.xdc.inc"/>
+    </makefiles>
+    <targets>
+    </targets>
+    <libraries>
+    </libraries>
+    <configurations>
+    </configurations>
+    <executables>
+    </executables>
+    <tests>
+    </tests>
+    <releases relDir="package/rel/">
+    <release name="ti_catalog_c2800"
+        pname="../../../../exports/ti_catalog_c2800.tar"
+        label="default"
+        relScript="/db/ztree/library/trees/platform/platform-n27x/src/tisb/release/epl/copyright.rel">
+        <file name="package/package.bld.xml"/>
+        <file name="package/build.cfg"/>
+        <file name="package/package.xdc.inc"/>
+        <file name="C28.tci"/>
+        <file name="C2801.tci"/>
+        <file name="C2806.tci"/>
+        <file name="C2808.tci"/>
+        <file name="C2810.tci"/>
+        <file name="C2811.tci"/>
+        <file name="C2812.tci"/>
+        <file name="C28332.tci"/>
+        <file name="C28334.tci"/>
+        <file name="C28335.tci"/>
+        <file name="C28232.tci"/>
+        <file name="C28234.tci"/>
+        <file name="C28235.tci"/>
+        <file name="C28341.tci"/>
+        <file name="C28342.tci"/>
+        <file name="C28343.tci"/>
+        <file name="C28344.tci"/>
+        <file name="C28345.tci"/>
+        <file name="C28346.tci"/>
+        <file name="C28022.tci"/>
+        <file name="C28023.tci"/>
+        <file name="C28026.tci"/>
+        <file name="C28027.tci"/>
+        <file name="C28032.tci"/>
+        <file name="C28033.tci"/>
+        <file name="C28034.tci"/>
+        <file name="C28035.tci"/>
+        <file name="C28020.tci"/>
+        <file name="C28021.tci"/>
+        <file name="C28015.tci"/>
+        <file name="C28016.tci"/>
+        <file name="C2802.tci"/>
+        <file name="C28030.tci"/>
+        <file name="C28031.tci"/>
+        <file name="C28044.tci"/>
+        <file name="C2809.tci"/>
+        <file name="C28062.tci"/>
+        <file name="C28063.tci"/>
+        <file name="C28064.tci"/>
+        <file name="C28065.tci"/>
+        <file name="C28066.tci"/>
+        <file name="C28067.tci"/>
+        <file name="C28068.tci"/>
+        <file name="C28069.tci"/>
+        <file name="C28050.tci"/>
+        <file name="C28051.tci"/>
+        <file name="C28052.tci"/>
+        <file name="C28052F.tci"/>
+        <file name="C28052M.tci"/>
+        <file name="C28053.tci"/>
+        <file name="C28054.tci"/>
+        <file name="C28054F.tci"/>
+        <file name="C28054M.tci"/>
+        <file name="C28055.tci"/>
+        <file name="package/package.cfg.xdc.inc"/>
+    </release>
+    </releases>
+    <repositories>
+    </repositories>
+</package>

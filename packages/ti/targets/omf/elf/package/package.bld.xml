@@ -1,0 +1,1317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  This file conforms to the DTD xdc/bld/build.dtd -->
+<package name="ti.targets.omf.elf" version="" producerId="/db/ztree/library/trees/xdctargets/xdctargets-f40x/src/">
+    <units>
+    </units>
+    <sources>
+        <srcFile name="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="elf.c"/>
+    </sources>
+    <configscripts>
+    </configscripts>
+    <makefiles>
+        <srcFile name="package.mak" src="package.bld"/>
+        <srcFile name="package/package.xdc.dep" src="package.xdc"/>
+        <srcFile name="package/package.cfg.dep" src="package.xdc"/>
+        <srcFile name="lib/elf.a64.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.o64.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.o64.dep" src="elf.c"/>
+        <srcFile name="lib/elf.a64P.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.o64P.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.o64P.dep" src="elf.c"/>
+        <srcFile name="lib/elf.a64Pe.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.o64Pe.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.o64Pe.dep" src="elf.c"/>
+        <srcFile name="lib/elf.a67P.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.o67P.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.o67P.dep" src="elf.c"/>
+        <srcFile name="lib/elf.a674.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.o674.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.o674.dep" src="elf.c"/>
+        <srcFile name="lib/elf.a674e.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.o674e.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.o674e.dep" src="elf.c"/>
+        <srcFile name="lib/elf.a66.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.o66.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.o66.dep" src="elf.c"/>
+        <srcFile name="lib/elf.a66e.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.o66e.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.o66e.dep" src="elf.c"/>
+        <srcFile name="lib/elf.a28.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.o28.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.o28.dep" src="elf.c"/>
+        <srcFile name="lib/elf.a28L.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.o28L.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.o28L.dep" src="elf.c"/>
+        <srcFile name="lib/elf.a28FP.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.o28FP.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.o28FP.dep" src="elf.c"/>
+        <srcFile name="lib/elf.a64T.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.o64T.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.o64T.dep" src="elf.c"/>
+        <srcFile name="lib/elf.a64Te.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.o64Te.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.o64Te.dep" src="elf.c"/>
+        <srcFile name="lib/elf.ae7.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oe7.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oe7.dep" src="elf.c"/>
+        <srcFile name="lib/elf.ae7e.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oe7e.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oe7e.dep" src="elf.c"/>
+        <srcFile name="lib/elf.ae9.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oe9.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oe9.dep" src="elf.c"/>
+        <srcFile name="lib/elf.ae9t.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oe9t.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oe9t.dep" src="elf.c"/>
+        <srcFile name="lib/elf.aea8f.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oea8f.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oea8f.dep" src="elf.c"/>
+        <srcFile name="lib/elf.aea8ft.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oea8ft.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oea8ft.dep" src="elf.c"/>
+        <srcFile name="lib/elf.aea8fv.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oea8fv.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oea8fv.dep" src="elf.c"/>
+        <srcFile name="lib/elf.aea8fnv.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oea8fnv.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oea8fnv.dep" src="elf.c"/>
+        <srcFile name="lib/elf.aem3.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oem3.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oem3.dep" src="elf.c"/>
+        <srcFile name="lib/elf.aem3e.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oem3e.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oem3e.dep" src="elf.c"/>
+        <srcFile name="lib/elf.aem4.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oem4.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oem4.dep" src="elf.c"/>
+        <srcFile name="lib/elf.aem4f.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oem4f.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oem4f.dep" src="elf.c"/>
+        <srcFile name="lib/elf.aer4.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oer4.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oer4.dep" src="elf.c"/>
+        <srcFile name="lib/elf.aer4e.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oer4e.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oer4e.dep" src="elf.c"/>
+        <srcFile name="lib/elf.aer4t.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oer4t.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oer4t.dep" src="elf.c"/>
+        <srcFile name="lib/elf.aer4te.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oer4te.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oer4te.dep" src="elf.c"/>
+        <srcFile name="lib/elf.aer4ft.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oer4ft.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oer4ft.dep" src="elf.c"/>
+        <srcFile name="lib/elf.aer4fe.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oer4fe.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oer4fe.dep" src="elf.c"/>
+        <srcFile name="lib/elf.aer4fte.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oer4fte.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oer4fte.dep" src="elf.c"/>
+        <srcFile name="lib/elf.ae64P.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oe64P.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oe64P.dep" src="elf.c"/>
+        <srcFile name="lib/elf.ae64T.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oe64T.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oe64T.dep" src="elf.c"/>
+        <srcFile name="lib/elf.ae674.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oe674.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oe674.dep" src="elf.c"/>
+        <srcFile name="lib/elf.ae470.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oe470.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oe470.dep" src="elf.c"/>
+        <srcFile name="lib/elf.ae64Pe.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oe64Pe.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oe64Pe.dep" src="elf.c"/>
+        <srcFile name="lib/elf.ae64Te.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oe64Te.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oe64Te.dep" src="elf.c"/>
+        <srcFile name="lib/elf.ae674e.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oe674e.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oe674e.dep" src="elf.c"/>
+        <srcFile name="lib/elf.ae67P.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oe67P.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oe67P.dep" src="elf.c"/>
+        <srcFile name="lib/elf.ae66.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oe66.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oe66.dep" src="elf.c"/>
+        <srcFile name="lib/elf.ae66e.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oe66e.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oe66e.dep" src="elf.c"/>
+        <srcFile name="lib/elf.aearp32.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oearp32.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oearp32.dep" src="elf.c"/>
+        <srcFile name="lib/elf.aearp32F.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oearp32F.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oearp32F.dep" src="elf.c"/>
+        <srcFile name="lib/elf.a86U.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.o86U.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.o86U.dep" src="elf.c"/>
+        <srcFile name="lib/elf.a86GW.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.o86GW.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.o86GW.dep" src="elf.c"/>
+        <srcFile name="lib/elf.a5.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.o5.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.o5.dep" src="elf.c"/>
+        <srcFile name="lib/elf.av5T.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.ov5T.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.ov5T.dep" src="elf.c"/>
+        <srcFile name="lib/elf.av6.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.ov6.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.ov6.dep" src="elf.c"/>
+        <srcFile name="lib/elf.av7A.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.ov7A.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.ov7A.dep" src="elf.c"/>
+        <srcFile name="lib/elf.am3g.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.om3g.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.om3g.dep" src="elf.c"/>
+        <srcFile name="lib/elf.am4g.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.om4g.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.om4g.dep" src="elf.c"/>
+        <srcFile name="lib/elf.am4fg.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.om4fg.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.om4fg.dep" src="elf.c"/>
+        <srcFile name="lib/elf.a470uC.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.o470uC.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.o470uC.dep" src="elf.c"/>
+        <srcFile name="lib/elf.a470MV.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.o470MV.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.o470MV.dep" src="elf.c"/>
+        <srcFile name="lib/elf.aa9g.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oa9g.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oa9g.dep" src="elf.c"/>
+        <srcFile name="lib/elf.aa15g.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oa15g.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oa15g.dep" src="elf.c"/>
+        <srcFile name="lib/elf.a86N.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.o86N.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.o86N.dep" src="elf.c"/>
+        <srcFile name="lib/elf.a86.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.o86.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.o86.dep" src="elf.c"/>
+        <srcFile name="lib/elf.a86W.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.o86W.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.o86W.dep" src="elf.c"/>
+        <srcFile name="lib/elf.abnc.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.obnc.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.obnc.dep" src="elf.c"/>
+        <srcFile name="lib/elf.aqv7.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.oqv7.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.oqv7.dep" src="elf.c"/>
+        <srcFile name="lib/elf.av4TCE.mak" src="package.bld"/>
+        <srcFile name="package/lib/lib/elf/package/package_ti.targets.omf.elf.ov4TCE.dep" src="package/package_ti.targets.omf.elf.c"/>
+        <srcFile name="package/lib/lib/elf/elf.ov4TCE.dep" src="elf.c"/>
+        <srcFile name="package/rel/ti_targets_omf_elf_purec.tar.gz.dep" src="package/rel/ti_targets_omf_elf_purec.xdc.inc"/>
+        <srcFile name="package/rel/ti_targets_omf_elf.tar.gz.dep" src="package/rel/ti_targets_omf_elf.xdc.inc"/>
+    </makefiles>
+    <targets>
+        <target name="ti.targets.C64"
+            version="ti.targets.C64{1,0,7.0,3"
+            platform="ti.platforms.sim6xxx:TMS320C6416"
+            isa="64"
+            suffix="64"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/c6x/7.0.3/Linux"
+            os="undefined"
+            rts="ti.targets.rts6000">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.C64P"
+            version="ti.targets.C64P{1,0,7.0,3"
+            platform="ti.platforms.sim6xxx:TMS320CDM420"
+            isa="64P"
+            suffix="64P"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/c6x/7.0.3/Linux"
+            os="undefined"
+            rts="ti.targets.rts6000">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.C64P_big_endian"
+            version="ti.targets.C64P_big_endian{1,0,7.0,3"
+            platform="ti.platforms.sim6xxx:TMS320CDM420"
+            isa="64P"
+            suffix="64Pe"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/c6x/7.0.3/Linux"
+            os="undefined"
+            rts="ti.targets.rts6000">
+            <model endian="big"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.C67P"
+            version="ti.targets.C67P{1,0,7.0,3"
+            platform="ti.platforms.sim6xxx:TMS320C6727"
+            isa="67P"
+            suffix="67P"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/c6x/7.0.3/Linux"
+            os="undefined"
+            rts="ti.targets.rts6000">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.C674"
+            version="ti.targets.C674{1,0,7.0,3"
+            platform="ti.platforms.evmDA830"
+            isa="674"
+            suffix="674"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/c6x/7.0.3/Linux"
+            os="undefined"
+            rts="ti.targets.rts6000">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.C674_big_endian"
+            version="ti.targets.C674_big_endian{1,0,7.0,3"
+            platform="ti.platforms.evmDA830"
+            isa="674"
+            suffix="674e"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/c6x/7.0.3/Linux"
+            os="undefined"
+            rts="ti.targets.rts6000">
+            <model endian="big"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.C66"
+            version="ti.targets.C66{1,0,7.2,0"
+            platform="ti.platforms.simTCI6616"
+            isa="66"
+            suffix="66"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/c6x/7.2.0/Linux"
+            os="undefined"
+            rts="ti.targets.rts6000">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.C66_big_endian"
+            version="ti.targets.C66_big_endian{1,0,7.2,0"
+            platform="ti.platforms.simTCI6616"
+            isa="66"
+            suffix="66e"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/c6x/7.2.0/Linux"
+            os="undefined"
+            rts="ti.targets.rts6000">
+            <model endian="big"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.C28"
+            version="ti.targets.C28{1,0,5.2,3"
+            platform="ti.platforms.sim28xx"
+            isa="28"
+            suffix="28"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/c28/5.2.3/Linux"
+            os="undefined"
+            rts="ti.targets.rts2800">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.C28_large"
+            version="ti.targets.C28_large{1,0,5.2,3"
+            platform="ti.platforms.sim28xx"
+            isa="28"
+            suffix="28L"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/c28/5.2.3/Linux"
+            os="undefined"
+            rts="ti.targets.rts2800">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="large"/>
+        </target>
+        <target name="ti.targets.C28_float"
+            version="ti.targets.C28_float{1,0,5.2,3"
+            platform="ti.platforms.sim28xx"
+            isa="28FP"
+            suffix="28FP"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/c28/5.2.3/Linux"
+            os="undefined"
+            rts="ti.targets.rts2800">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="large"/>
+        </target>
+        <target name="ti.targets.C64T"
+            version="ti.targets.C64T{1,0,7.0,3"
+            platform="ti.platforms.sdp4430"
+            isa="64T"
+            suffix="64T"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/c6x/7.0.3/Linux"
+            os="undefined"
+            rts="ti.targets.rts6000">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.C64T_big_endian"
+            version="ti.targets.C64T_big_endian{1,0,7.0,3"
+            platform="ti.platforms.sdp4430"
+            isa="64T"
+            suffix="64Te"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/c6x/7.0.3/Linux"
+            os="undefined"
+            rts="ti.targets.rts6000">
+            <model endian="big"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.arm.elf.Arm7"
+            version="ti.targets.arm.elf.Arm7{1,0,4.9,0"
+            platform="ti.platforms.sim470xx"
+            isa="v4T"
+            suffix="e7"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/arm/4.9.0/Linux"
+            os="undefined"
+            rts="ti.targets.arm.rtsarm">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.arm.elf.Arm7_big_endian"
+            version="ti.targets.arm.elf.Arm7_big_endian{1,0,4.9,0"
+            platform="ti.platforms.sim470xx"
+            isa="v4T"
+            suffix="e7e"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/arm/4.9.0/Linux"
+            os="undefined"
+            rts="ti.targets.arm.rtsarm">
+            <model endian="big"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.arm.elf.Arm9"
+            version="ti.targets.arm.elf.Arm9{1,0,4.9,0"
+            platform="ti.platforms.sim470xx"
+            isa="v5T"
+            suffix="e9"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/arm/4.9.0/Linux"
+            os="undefined"
+            rts="ti.targets.arm.rtsarm">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.arm.elf.Arm9t"
+            version="ti.targets.arm.elf.Arm9t{1,0,4.9,0"
+            platform="ti.platforms.sim470xx"
+            isa="v5T"
+            suffix="e9t"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/arm/4.9.0/Linux"
+            os="undefined"
+            rts="ti.targets.arm.rtsarm">
+            <model endian="little"
+                codeModel="thumb"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.arm.elf.A8F"
+            version="ti.targets.arm.elf.A8F{1,0,4.9,0"
+            platform="ti.platforms.evmDM8168"
+            isa="v7A"
+            suffix="ea8f"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/arm/4.9.0/Linux"
+            os="undefined"
+            rts="ti.targets.arm.rtsarm">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.arm.elf.A8Ft"
+            version="ti.targets.arm.elf.A8Ft{1,0,4.9,0"
+            platform="ti.platforms.evmDM8168"
+            isa="v7A"
+            suffix="ea8ft"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/arm/4.9.0/Linux"
+            os="undefined"
+            rts="ti.targets.arm.rtsarm">
+            <model endian="little"
+                codeModel="thumb2"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.arm.elf.A8Fv"
+            version="ti.targets.arm.elf.A8Fv{1,0,4.9,0"
+            platform="ti.platforms.evmDM8168"
+            isa="v7A"
+            suffix="ea8fv"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/arm/4.9.0/Linux"
+            os="undefined"
+            rts="ti.targets.arm.rtsarm">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.arm.elf.A8Fnv"
+            version="ti.targets.arm.elf.A8Fnv{1,0,4.9,0"
+            platform="ti.platforms.evmDM8168"
+            isa="v7A"
+            suffix="ea8fnv"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/arm/4.9.0/Linux"
+            os="undefined"
+            rts="ti.targets.arm.rtsarm">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.arm.elf.M3"
+            version="ti.targets.arm.elf.M3{1,0,4.9,0"
+            platform="ti.platforms.simDM8168"
+            isa="v7M"
+            suffix="em3"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/arm/4.9.0/Linux"
+            os="undefined"
+            rts="ti.targets.arm.rtsarm">
+            <model endian="little"
+                codeModel="thumb2"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.arm.elf.M3_big_endian"
+            version="ti.targets.arm.elf.M3_big_endian{1,0,4.9,0"
+            platform="ti.platforms.simDM8168"
+            isa="v7M"
+            suffix="em3e"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/arm/4.9.0/Linux"
+            os="undefined"
+            rts="ti.targets.arm.rtsarm">
+            <model endian="big"
+                codeModel="thumb2"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.arm.elf.M4"
+            version="ti.targets.arm.elf.M4{1,0,4.9,0"
+            platform="ti.platforms.stellaris:LM4FSXLH5BB:1"
+            isa="v7M4"
+            suffix="em4"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/arm/4.9.0/Linux"
+            os="undefined"
+            rts="ti.targets.arm.rtsarm">
+            <model endian="little"
+                codeModel="thumb2"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.arm.elf.M4F"
+            version="ti.targets.arm.elf.M4F{1,0,4.9,0"
+            platform="ti.platforms.stellaris:LM4FSXLH5BB:1"
+            isa="v7M4"
+            suffix="em4f"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/arm/4.9.0/Linux"
+            os="undefined"
+            rts="ti.targets.arm.rtsarm">
+            <model endian="little"
+                codeModel="thumb2"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.arm.elf.R4"
+            version="ti.targets.arm.elf.R4{1,0,4.9,0"
+            platform="ti.platforms.evmTMS570"
+            isa="v7R"
+            suffix="er4"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/arm/4.9.0/Linux"
+            os="undefined"
+            rts="ti.targets.arm.rtsarm">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.arm.elf.R4_big_endian"
+            version="ti.targets.arm.elf.R4_big_endian{1,0,4.9,0"
+            platform="ti.platforms.evmTMS570"
+            isa="v7R"
+            suffix="er4e"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/arm/4.9.0/Linux"
+            os="undefined"
+            rts="ti.targets.arm.rtsarm">
+            <model endian="big"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.arm.elf.R4t"
+            version="ti.targets.arm.elf.R4t{1,0,4.9,0"
+            platform="ti.platforms.evmTMS570"
+            isa="v7R"
+            suffix="er4t"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/arm/4.9.0/Linux"
+            os="undefined"
+            rts="ti.targets.arm.rtsarm">
+            <model endian="little"
+                codeModel="thumb2"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.arm.elf.R4t_big_endian"
+            version="ti.targets.arm.elf.R4t_big_endian{1,0,4.9,0"
+            platform="ti.platforms.evmTMS570"
+            isa="v7R"
+            suffix="er4te"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/arm/4.9.0/Linux"
+            os="undefined"
+            rts="ti.targets.arm.rtsarm">
+            <model endian="big"
+                codeModel="thumb2"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.arm.elf.R4Ft"
+            version="ti.targets.arm.elf.R4Ft{1,0,4.9,0"
+            platform="ti.platforms.evmTMS570"
+            isa="v7R"
+            suffix="er4ft"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/arm/4.9.0/Linux"
+            os="undefined"
+            rts="ti.targets.arm.rtsarm">
+            <model endian="little"
+                codeModel="thumb2"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.arm.elf.R4F_big_endian"
+            version="ti.targets.arm.elf.R4F_big_endian{1,0,4.9,0"
+            platform="ti.platforms.evmTMS570"
+            isa="v7R"
+            suffix="er4fe"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/arm/4.9.0/Linux"
+            os="undefined"
+            rts="ti.targets.arm.rtsarm">
+            <model endian="big"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.arm.elf.R4Ft_big_endian"
+            version="ti.targets.arm.elf.R4Ft_big_endian{1,0,4.9,0"
+            platform="ti.platforms.evmTMS570"
+            isa="v7R"
+            suffix="er4fte"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/arm/4.9.0/Linux"
+            os="undefined"
+            rts="ti.targets.arm.rtsarm">
+            <model endian="big"
+                codeModel="thumb2"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.elf.C64P"
+            version="ti.targets.elf.C64P{1,0,7.2,0"
+            platform="ti.platforms.sim6xxx:TMS320CDM420"
+            isa="64P"
+            suffix="e64P"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/c6x/7.2.0/Linux"
+            os="undefined"
+            rts="ti.targets.rts6000">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.elf.C64T"
+            version="ti.targets.elf.C64T{1,0,7.2,0"
+            platform="ti.platforms.sdp4430"
+            isa="64T"
+            suffix="e64T"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/c6x/7.2.0/Linux"
+            os="undefined"
+            rts="ti.targets.rts6000">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.elf.C674"
+            version="ti.targets.elf.C674{1,0,7.2,0"
+            platform="ti.platforms.evmDA830"
+            isa="674"
+            suffix="e674"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/c6x/7.2.0/Linux"
+            os="undefined"
+            rts="ti.targets.rts6000">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.elf.TMS470"
+            version="ti.targets.elf.TMS470{1,0,4.9,0"
+            platform="ti.platforms.sim470xx"
+            isa="470"
+            suffix="e470"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/arm/4.9.0/Linux"
+            os="undefined"
+            rts="ti.targets.arm.rtsarm">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.elf.C64P_big_endian"
+            version="ti.targets.elf.C64P_big_endian{1,0,7.2,0"
+            platform="ti.platforms.sim6xxx:TMS320CDM420"
+            isa="64P"
+            suffix="e64Pe"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/c6x/7.2.0/Linux"
+            os="undefined"
+            rts="ti.targets.rts6000">
+            <model endian="big"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.elf.C64T_big_endian"
+            version="ti.targets.elf.C64T_big_endian{1,0,7.2,0"
+            platform="ti.platforms.sdp4430"
+            isa="64T"
+            suffix="e64Te"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/c6x/7.2.0/Linux"
+            os="undefined"
+            rts="ti.targets.rts6000">
+            <model endian="big"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.elf.C674_big_endian"
+            version="ti.targets.elf.C674_big_endian{1,0,7.2,0"
+            platform="ti.platforms.evmDA830"
+            isa="674"
+            suffix="e674e"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/c6x/7.2.0/Linux"
+            os="undefined"
+            rts="ti.targets.rts6000">
+            <model endian="big"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.elf.C67P"
+            version="ti.targets.elf.C67P{1,0,7.2,0"
+            platform="ti.platforms.sim6xxx:TMS320C6727"
+            isa="67P"
+            suffix="e67P"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/c6x/7.2.0/Linux"
+            os="undefined"
+            rts="ti.targets.rts6000">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.elf.C66"
+            version="ti.targets.elf.C66{1,0,7.2,0"
+            platform="ti.platforms.simTCI6616"
+            isa="66"
+            suffix="e66"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/c6x/7.2.0/Linux"
+            os="undefined"
+            rts="ti.targets.rts6000">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.elf.C66_big_endian"
+            version="ti.targets.elf.C66_big_endian{1,0,7.2,0"
+            platform="ti.platforms.simTCI6616"
+            isa="66"
+            suffix="e66e"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/c6x/7.2.0/Linux"
+            os="undefined"
+            rts="ti.targets.rts6000">
+            <model endian="big"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.arp32.elf.ARP32"
+            version="ti.targets.arp32.elf.ARP32{1,0,1.0,0,4"
+            platform="ti.platforms.simARP32"
+            isa="arp32"
+            suffix="earp32"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/arp32/1.0.0B4/Linux"
+            os="undefined"
+            rts="ti.targets.arp32.rts">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="ti.targets.arp32.elf.ARP32_far"
+            version="ti.targets.arp32.elf.ARP32_far{1,0,1.0,0,4"
+            platform="ti.platforms.simARP32"
+            isa="arp32"
+            suffix="earp32F"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/ti/arp32/1.0.0B4/Linux"
+            os="undefined"
+            rts="ti.targets.arp32.rts">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="gnu.targets.Linux86"
+            version="gnu.targets.Linux86{1,0,4.1,0"
+            platform="host.platforms.PC"
+            isa="i686"
+            suffix="86U"
+            rootDir="/db/toolsrc/library/toolsE23/gcc86U"
+            os="Linux"
+            rts="gnu.targets.rts86U">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="gnu.targets.Mingw"
+            version="gnu.targets.Mingw{1,0,4.4,0"
+            platform="host.platforms.PC"
+            isa="x86"
+            suffix="86GW"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/opensource/mingw/4.4.0/Windows"
+            os="Windows"
+            rts="gnu.targets.rts86GW">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="gnu.targets.Sparc"
+            version="gnu.targets.Sparc{1,0,4.1,0"
+            platform="host.platforms.SUN"
+            isa="sparc"
+            suffix="5"
+            rootDir="/db/toolsrc/library/toolsE23/default/gcc5"
+            os="Solaris"
+            rts="gnu.targets.rts5">
+            <model endian="big"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="gnu.targets.arm.GCArmv5T"
+            version="gnu.targets.arm.GCArmv5T{1,0,3.4,3"
+            platform="host.platforms.arm"
+            isa="v5T"
+            suffix="v5T"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/mvl/arm/mvl4.0/Linux/montavista/pro/devkit/arm/v5t_le"
+            os="Linux"
+            rts="gnu.targets.arm.rtsv5T">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="gnu.targets.arm.GCArmv6"
+            version="gnu.targets.arm.GCArmv6{1,0,4.3,2"
+            platform="host.platforms.arm"
+            isa="v6"
+            suffix="v6"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/cs/arm/arm-2008q3"
+            os="Linux"
+            rts="gnu.targets.arm.rtsv6">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="gnu.targets.arm.GCArmv7A"
+            version="gnu.targets.arm.GCArmv7A{1,0,4.3,2"
+            platform="host.platforms.arm"
+            isa="v7A"
+            suffix="v7A"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/cs/arm/arm-2008q3"
+            os="Linux"
+            rts="gnu.targets.arm.rtsv7A">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="gnu.targets.arm.M3"
+            version="gnu.targets.arm.M3{1,0,4.5,2"
+            platform="ti.platforms.stellaris:LM3S9B90"
+            isa="v7M"
+            suffix="m3g"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/cs/armBM/arm-2011q3"
+            os="undefined"
+            rts="gnu.targets.arm.rtsv7M">
+            <model endian="little"
+                codeModel="thumb2"
+                dataModel="undefined"/>
+        </target>
+        <target name="gnu.targets.arm.M4"
+            version="gnu.targets.arm.M4{1,0,4.5,2"
+            platform="ti.platforms.stellaris:LM4F232H5QD"
+            isa="v7M4"
+            suffix="m4g"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/cs/armBM/arm-2011q3"
+            os="undefined"
+            rts="gnu.targets.arm.rtsv7M">
+            <model endian="little"
+                codeModel="thumb2"
+                dataModel="undefined"/>
+        </target>
+        <target name="gnu.targets.arm.M4F"
+            version="gnu.targets.arm.M4F{1,0,4.5,2"
+            platform="ti.platforms.stellaris:LM4F232H5QD"
+            isa="v7M4"
+            suffix="m4fg"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/cs/armBM/arm-2011q3"
+            os="undefined"
+            rts="gnu.targets.arm.rtsv7M">
+            <model endian="little"
+                codeModel="thumb2"
+                dataModel="undefined"/>
+        </target>
+        <target name="gnu.targets.arm.UCArm9"
+            version="gnu.targets.arm.UCArm9{1,0,4.2,1"
+            platform="ti.platforms.evmDM6446"
+            isa="v5T"
+            suffix="470uC"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/opensource/buildroot/10122007/build_arm/staging_dir/usr"
+            os="Linux"
+            rts="gnu.targets.arm.rts470uC">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="gnu.targets.arm.MVArm9"
+            version="gnu.targets.arm.MVArm9{1,0,3.4,3"
+            platform="ti.platforms.evmDM6446"
+            isa="v5T"
+            suffix="470MV"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/mvl/arm/mvl4.0/Linux/montavista/pro/devkit/arm/v5t_le"
+            os="Linux"
+            rts="gnu.targets.arm.rts470MV">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="gnu.targets.arm.A9"
+            version="gnu.targets.arm.A9{1,0,4.6,3"
+            platform="ti.platforms.sdp4430"
+            isa="v7A9"
+            suffix="a9g"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/cs/armBM/arm-2012_03"
+            os="undefined"
+            rts="gnu.targets.arm.rtsv7A">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="gnu.targets.arm.A15"
+            version="gnu.targets.arm.A15{1,0,4.6,3"
+            platform="ti.platforms.sdp5430"
+            isa="v7A15"
+            suffix="a15g"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/cs/armBM/arm-2012_03"
+            os="undefined"
+            rts="gnu.targets.arm.rtsv7A">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="microsoft.targets.Net32"
+            version="microsoft.targets.Net32{1,0,13.10,3052"
+            platform="host.platforms.PC"
+            isa="x86"
+            suffix="86N"
+            rootDir="/db/toolsrc/library/toolsE23/msvctk2003"
+            os="Windows"
+            rts="microsoft.targets.rts">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="microsoft.targets.VC98"
+            version="microsoft.targets.VC98{1,0,12.00,8168"
+            platform="host.platforms.PC"
+            isa="x86"
+            suffix="86"
+            rootDir="/db/toolsrc/library/toolsE23/msvc32"
+            os="Windows"
+            rts="microsoft.targets.rts">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="microsoft.targets.Win32"
+            version="microsoft.targets.Win32{1,0,14.00,50727"
+            platform="host.platforms.PC"
+            isa="x86"
+            suffix="86W"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/msvc/8.0"
+            os="Windows"
+            rts="microsoft.targets.rts">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="google.targets.arm.Bionic"
+            version="google.targets.arm.Bionic{1,0,4.4,3"
+            platform="host.platforms.arm"
+            isa="v5T"
+            suffix="bnc"
+            rootDir="/db/toolsrc/library/toolsE23/vendors/android/rowboat/ti814x/20111011/arm-eabi-4.4.3"
+            os="Linux"
+            rts="google.targets.arm.rts">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="qnx.targets.arm.Qnx"
+            version="qnx.targets.arm.Qnx{1,0,4.4,2"
+            platform="host.platforms.arm"
+            isa="v7A"
+            suffix="qv7"
+            rootDir="/apps/qnx/6.5.0/host/linux/x86/usr"
+            os="Qnx"
+            rts="qnx.targets.arm.rts">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+        <target name="microsoft.targets.arm.WinCE"
+            version="microsoft.targets.arm.WinCE{1,0,14.01,60511"
+            platform="host.platforms.arm"
+            isa="v4T"
+            suffix="v4TCE"
+            rootDir="C:/WINCE600"
+            os="WindowsCE"
+            rts="microsoft.targets.arm.rts">
+            <model endian="little"
+                codeModel="undefined"
+                dataModel="undefined"/>
+        </target>
+    </targets>
+    <libraries>
+    <library name="lib/elf"
+        pname="lib/elf.a64"
+        profile="release"
+        target="ti.targets.C64"/>
+    <library name="lib/elf"
+        pname="lib/elf.a64P"
+        profile="release"
+        target="ti.targets.C64P"/>
+    <library name="lib/elf"
+        pname="lib/elf.a64Pe"
+        profile="release"
+        target="ti.targets.C64P_big_endian"/>
+    <library name="lib/elf"
+        pname="lib/elf.a67P"
+        profile="release"
+        target="ti.targets.C67P"/>
+    <library name="lib/elf"
+        pname="lib/elf.a674"
+        profile="release"
+        target="ti.targets.C674"/>
+    <library name="lib/elf"
+        pname="lib/elf.a674e"
+        profile="release"
+        target="ti.targets.C674_big_endian"/>
+    <library name="lib/elf"
+        pname="lib/elf.a66"
+        profile="release"
+        target="ti.targets.C66"/>
+    <library name="lib/elf"
+        pname="lib/elf.a66e"
+        profile="release"
+        target="ti.targets.C66_big_endian"/>
+    <library name="lib/elf"
+        pname="lib/elf.a28"
+        profile="release"
+        target="ti.targets.C28"/>
+    <library name="lib/elf"
+        pname="lib/elf.a28L"
+        profile="release"
+        target="ti.targets.C28_large"/>
+    <library name="lib/elf"
+        pname="lib/elf.a28FP"
+        profile="release"
+        target="ti.targets.C28_float"/>
+    <library name="lib/elf"
+        pname="lib/elf.a64T"
+        profile="release"
+        target="ti.targets.C64T"/>
+    <library name="lib/elf"
+        pname="lib/elf.a64Te"
+        profile="release"
+        target="ti.targets.C64T_big_endian"/>
+    <library name="lib/elf"
+        pname="lib/elf.ae7"
+        profile="release"
+        target="ti.targets.arm.elf.Arm7"/>
+    <library name="lib/elf"
+        pname="lib/elf.ae7e"
+        profile="release"
+        target="ti.targets.arm.elf.Arm7_big_endian"/>
+    <library name="lib/elf"
+        pname="lib/elf.ae9"
+        profile="release"
+        target="ti.targets.arm.elf.Arm9"/>
+    <library name="lib/elf"
+        pname="lib/elf.ae9t"
+        profile="release"
+        target="ti.targets.arm.elf.Arm9t"/>
+    <library name="lib/elf"
+        pname="lib/elf.aea8f"
+        profile="release"
+        target="ti.targets.arm.elf.A8F"/>
+    <library name="lib/elf"
+        pname="lib/elf.aea8ft"
+        profile="release"
+        target="ti.targets.arm.elf.A8Ft"/>
+    <library name="lib/elf"
+        pname="lib/elf.aea8fv"
+        profile="release"
+        target="ti.targets.arm.elf.A8Fv"/>
+    <library name="lib/elf"
+        pname="lib/elf.aea8fnv"
+        profile="release"
+        target="ti.targets.arm.elf.A8Fnv"/>
+    <library name="lib/elf"
+        pname="lib/elf.aem3"
+        profile="release"
+        target="ti.targets.arm.elf.M3"/>
+    <library name="lib/elf"
+        pname="lib/elf.aem3e"
+        profile="release"
+        target="ti.targets.arm.elf.M3_big_endian"/>
+    <library name="lib/elf"
+        pname="lib/elf.aem4"
+        profile="release"
+        target="ti.targets.arm.elf.M4"/>
+    <library name="lib/elf"
+        pname="lib/elf.aem4f"
+        profile="release"
+        target="ti.targets.arm.elf.M4F"/>
+    <library name="lib/elf"
+        pname="lib/elf.aer4"
+        profile="release"
+        target="ti.targets.arm.elf.R4"/>
+    <library name="lib/elf"
+        pname="lib/elf.aer4e"
+        profile="release"
+        target="ti.targets.arm.elf.R4_big_endian"/>
+    <library name="lib/elf"
+        pname="lib/elf.aer4t"
+        profile="release"
+        target="ti.targets.arm.elf.R4t"/>
+    <library name="lib/elf"
+        pname="lib/elf.aer4te"
+        profile="release"
+        target="ti.targets.arm.elf.R4t_big_endian"/>
+    <library name="lib/elf"
+        pname="lib/elf.aer4ft"
+        profile="release"
+        target="ti.targets.arm.elf.R4Ft"/>
+    <library name="lib/elf"
+        pname="lib/elf.aer4fe"
+        profile="release"
+        target="ti.targets.arm.elf.R4F_big_endian"/>
+    <library name="lib/elf"
+        pname="lib/elf.aer4fte"
+        profile="release"
+        target="ti.targets.arm.elf.R4Ft_big_endian"/>
+    <library name="lib/elf"
+        pname="lib/elf.ae64P"
+        profile="release"
+        target="ti.targets.elf.C64P"/>
+    <library name="lib/elf"
+        pname="lib/elf.ae64T"
+        profile="release"
+        target="ti.targets.elf.C64T"/>
+    <library name="lib/elf"
+        pname="lib/elf.ae674"
+        profile="release"
+        target="ti.targets.elf.C674"/>
+    <library name="lib/elf"
+        pname="lib/elf.ae470"
+        profile="release"
+        target="ti.targets.elf.TMS470"/>
+    <library name="lib/elf"
+        pname="lib/elf.ae64Pe"
+        profile="release"
+        target="ti.targets.elf.C64P_big_endian"/>
+    <library name="lib/elf"
+        pname="lib/elf.ae64Te"
+        profile="release"
+        target="ti.targets.elf.C64T_big_endian"/>
+    <library name="lib/elf"
+        pname="lib/elf.ae674e"
+        profile="release"
+        target="ti.targets.elf.C674_big_endian"/>
+    <library name="lib/elf"
+        pname="lib/elf.ae67P"
+        profile="release"
+        target="ti.targets.elf.C67P"/>
+    <library name="lib/elf"
+        pname="lib/elf.ae66"
+        profile="release"
+        target="ti.targets.elf.C66"/>
+    <library name="lib/elf"
+        pname="lib/elf.ae66e"
+        profile="release"
+        target="ti.targets.elf.C66_big_endian"/>
+    <library name="lib/elf"
+        pname="lib/elf.aearp32"
+        profile="release"
+        target="ti.targets.arp32.elf.ARP32"/>
+    <library name="lib/elf"
+        pname="lib/elf.aearp32F"
+        profile="release"
+        target="ti.targets.arp32.elf.ARP32_far"/>
+    <library name="lib/elf"
+        pname="lib/elf.a86U"
+        profile="release"
+        target="gnu.targets.Linux86"/>
+    <library name="lib/elf"
+        pname="lib/elf.a86GW"
+        profile="release"
+        target="gnu.targets.Mingw"/>
+    <library name="lib/elf"
+        pname="lib/elf.a5"
+        profile="release"
+        target="gnu.targets.Sparc"/>
+    <library name="lib/elf"
+        pname="lib/elf.av5T"
+        profile="release"
+        target="gnu.targets.arm.GCArmv5T"/>
+    <library name="lib/elf"
+        pname="lib/elf.av6"
+        profile="release"
+        target="gnu.targets.arm.GCArmv6"/>
+    <library name="lib/elf"
+        pname="lib/elf.av7A"
+        profile="release"
+        target="gnu.targets.arm.GCArmv7A"/>
+    <library name="lib/elf"
+        pname="lib/elf.am3g"
+        profile="release"
+        target="gnu.targets.arm.M3"/>
+    <library name="lib/elf"
+        pname="lib/elf.am4g"
+        profile="release"
+        target="gnu.targets.arm.M4"/>
+    <library name="lib/elf"
+        pname="lib/elf.am4fg"
+        profile="release"
+        target="gnu.targets.arm.M4F"/>
+    <library name="lib/elf"
+        pname="lib/elf.a470uC"
+        profile="release"
+        target="gnu.targets.arm.UCArm9"/>
+    <library name="lib/elf"
+        pname="lib/elf.a470MV"
+        profile="release"
+        target="gnu.targets.arm.MVArm9"/>
+    <library name="lib/elf"
+        pname="lib/elf.aa9g"
+        profile="release"
+        target="gnu.targets.arm.A9"/>
+    <library name="lib/elf"
+        pname="lib/elf.aa15g"
+        profile="release"
+        target="gnu.targets.arm.A15"/>
+    <library name="lib/elf"
+        pname="lib/elf.a86N"
+        profile="release"
+        target="microsoft.targets.Net32"/>
+    <library name="lib/elf"
+        pname="lib/elf.a86"
+        profile="release"
+        target="microsoft.targets.VC98"/>
+    <library name="lib/elf"
+        pname="lib/elf.a86W"
+        profile="release"
+        target="microsoft.targets.Win32"/>
+    <library name="lib/elf"
+        pname="lib/elf.abnc"
+        profile="release"
+        target="google.targets.arm.Bionic"/>
+    <library name="lib/elf"
+        pname="lib/elf.aqv7"
+        profile="release"
+        target="qnx.targets.arm.Qnx"/>
+    <library name="lib/elf"
+        pname="lib/elf.av4TCE"
+        profile="release"
+        target="microsoft.targets.arm.WinCE"/>
+    </libraries>
+    <configurations>
+    </configurations>
+    <executables>
+    </executables>
+    <tests>
+    </tests>
+    <releases relDir="package/rel/">
+    <release name="ti_targets_omf_elf_purec"
+        pname="../../../../../exports/ti_targets_omf_elf_purec.tar.gz"
+        label="purec"
+        relScript="../../../../purec.rel">
+        <file name="package/package.bld.xml"/>
+        <file name="package/build.cfg"/>
+        <file name="package/package.xdc.inc"/>
+        <file name="elf.h"/>
+        <file name="docs"/>
+        <file name="java/package.jar"/>
+        <file name="package/package.cfg.xdc.inc"/>
+    </release>
+    <release name="ti_targets_omf_elf"
+        pname="../../../../../exports/ti_targets_omf_elf.tar.gz"
+        label="default"
+        relScript="tisb/release/filters/copyright.rel">
+        <file name="package/package.bld.xml"/>
+        <file name="package/build.cfg"/>
+        <file name="package/package.xdc.inc"/>
+        <file name="elf.h"/>
+        <file name="docs"/>
+        <file name="java/package.jar"/>
+        <file name="package/package.cfg.xdc.inc"/>
+        <file name="lib/elf.a64"/>
+        <file name="lib/elf.a64P"/>
+        <file name="lib/elf.a64Pe"/>
+        <file name="lib/elf.a67P"/>
+        <file name="lib/elf.a674"/>
+        <file name="lib/elf.a674e"/>
+        <file name="lib/elf.a66"/>
+        <file name="lib/elf.a66e"/>
+        <file name="lib/elf.a28"/>
+        <file name="lib/elf.a28L"/>
+        <file name="lib/elf.a28FP"/>
+        <file name="lib/elf.a64T"/>
+        <file name="lib/elf.a64Te"/>
+        <file name="lib/elf.ae7"/>
+        <file name="lib/elf.ae7e"/>
+        <file name="lib/elf.ae9"/>
+        <file name="lib/elf.ae9t"/>
+        <file name="lib/elf.aea8f"/>
+        <file name="lib/elf.aea8ft"/>
+        <file name="lib/elf.aea8fv"/>
+        <file name="lib/elf.aea8fnv"/>
+        <file name="lib/elf.aem3"/>
+        <file name="lib/elf.aem3e"/>
+        <file name="lib/elf.aem4"/>
+        <file name="lib/elf.aem4f"/>
+        <file name="lib/elf.aer4"/>
+        <file name="lib/elf.aer4e"/>
+        <file name="lib/elf.aer4t"/>
+        <file name="lib/elf.aer4te"/>
+        <file name="lib/elf.aer4ft"/>
+        <file name="lib/elf.aer4fe"/>
+        <file name="lib/elf.aer4fte"/>
+        <file name="lib/elf.ae64P"/>
+        <file name="lib/elf.ae64T"/>
+        <file name="lib/elf.ae674"/>
+        <file name="lib/elf.ae470"/>
+        <file name="lib/elf.ae64Pe"/>
+        <file name="lib/elf.ae64Te"/>
+        <file name="lib/elf.ae674e"/>
+        <file name="lib/elf.ae67P"/>
+        <file name="lib/elf.ae66"/>
+        <file name="lib/elf.ae66e"/>
+        <file name="lib/elf.aearp32"/>
+        <file name="lib/elf.aearp32F"/>
+        <file name="lib/elf.a86U"/>
+        <file name="lib/elf.a86GW"/>
+        <file name="lib/elf.a5"/>
+        <file name="lib/elf.av5T"/>
+        <file name="lib/elf.av6"/>
+        <file name="lib/elf.av7A"/>
+        <file name="lib/elf.am3g"/>
+        <file name="lib/elf.am4g"/>
+        <file name="lib/elf.am4fg"/>
+        <file name="lib/elf.a470uC"/>
+        <file name="lib/elf.a470MV"/>
+        <file name="lib/elf.aa9g"/>
+        <file name="lib/elf.aa15g"/>
+        <file name="lib/elf.a86N"/>
+        <file name="lib/elf.a86"/>
+        <file name="lib/elf.a86W"/>
+        <file name="lib/elf.abnc"/>
+        <file name="lib/elf.aqv7"/>
+        <file name="lib/elf.av4TCE"/>
+    </release>
+    </releases>
+    <repositories>
+    </repositories>
+</package>
